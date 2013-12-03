@@ -37,6 +37,8 @@
 \addcontentsline{toc}{section}{Introduction}
 I'm adding some text.
 
+\section{This is a test section}
+
 \section{Summary of the first presentation}
 \section{The last components of Chierchia's system}
 \subsection{The syntax of exhaustification:}

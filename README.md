@@ -1,9 +1,7 @@
 ### COMMENT AJOUTER DES FICHIERS AU DÉPÔT GIT
 
 1. Avant de commencer à travailler sur le fichier, il faut récupérer le travail que l'autre a fait. On travaille dans le terminal, il faut se déplacer dans le dossier où est contenu le dépôt git grâce à la commande ```cd```. Ensuite, il faut taper:
-	
 	```git fetch```
-	
 	Puis:
 	
 	```git pull```

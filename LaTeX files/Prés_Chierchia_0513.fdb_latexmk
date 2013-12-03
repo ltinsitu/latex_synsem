@@ -1,29 +1,13 @@
 # Fdb version 3
-["bibtex Prés_Chierchia_0513"] 1386068066 "Prés_Chierchia_0513.aux" "Prés_Chierchia_0513.bbl" "Prés_Chierchia_0513" 
+["bibtex Prés_Chierchia_0513"] 1386068359 "Prés_Chierchia_0513.aux" "Prés_Chierchia_0513.bbl" "Prés_Chierchia_0513" 
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-<<<<<<< HEAD
-  "Prés_Chierchia_0513.aux" 1386068067 6089 68bef84af3221951dc00f150e07222a0 ""
-=======
-<<<<<<< HEAD
-  "Prés_Chierchia_0513.aux" 1386074141 5913 5a0d256063532d5a4bf7c4da9d665899 ""
-=======
-  "Prés_Chierchia_0513.aux" 1386066640 5998 d5fc76a404b5c02afe5b06663d98cce0 ""
->>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
->>>>>>> 776079cfdf5a7b063ba966d700973fe9d5fc492e
+  "Prés_Chierchia_0513.aux" 1386068359 5556 75ca2a51fbf33bc90e87342aaee73056 ""
   "Prés_Chierchia_0513.bcf" 0 -1 0 ""
   "synsemchierchia.bib" 1386056964 2756 69e64fe3a6142ecddabbcad9e37a5c7a ""
   (generated)
   "Prés_Chierchia_0513.bbl"
   "Prés_Chierchia_0513.blg"
-<<<<<<< HEAD
-["pdflatex"] 1386068066 "Prés_Chierchia_0513.tex" "Prés_Chierchia_0513.pdf" "Prés_Chierchia_0513" 
-=======
-<<<<<<< HEAD
-["pdflatex"] 1386074140 "Prés_Chierchia_0513.tex" "Prés_Chierchia_0513.pdf" "Prés_Chierchia_0513" 
-=======
-["pdflatex"] 1386066640 "Prés_Chierchia_0513.tex" "Prés_Chierchia_0513.pdf" "Prés_Chierchia_0513" 
->>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
->>>>>>> 776079cfdf5a7b063ba966d700973fe9d5fc492e
+["pdflatex"] 1386068359 "Prés_Chierchia_0513.tex" "Prés_Chierchia_0513.pdf" "Prés_Chierchia_0513" 
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1312409092 29228 2fe939254f4b17ac18a8c0fb8aa39dff ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf" 1137109563 6608 fe33acefb75a26ad10c2c6f09d423415 ""
@@ -80,26 +64,11 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmr.fd" 1256929440 1880 bae7b659316f7344a86218ad38b01d91 ""
   "/usr/share/texmf/tex/latex/lm/t1lmr.fd" 1256929440 1865 afbfccbe7fda9c2dc5078ad7c486bbed ""
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
-<<<<<<< HEAD
-  "/var/lib/texmf/tex/generic/babel/babel.sty" 1357673395 9196 7941d7b30577f4c2f84c82751b796f66 ""
-  "Prés_Chierchia_0513.aux" 1386074141 5913 5a0d256063532d5a4bf7c4da9d665899 ""
-  "Prés_Chierchia_0513.bbl" 1386073529 1984 07d2498043436ce500b23d46679f6deb "bibtex Prés_Chierchia_0513"
-  "Prés_Chierchia_0513.tex" 1386074139 34651 a3585cc015836458f0fbfba81be86839 ""
-  "Prés_Chierchia_0513.toc" 1386074141 1521 f31e08e9ab24ac8ef367f3cc8dbfbd31 ""
-=======
   "/var/lib/texmf/tex/generic/babel/babel.sty" 1379001642 9196 b0eed93973ffa0495820c7a8ffa1a269 ""
-<<<<<<< HEAD
-  "Prés_Chierchia_0513.aux" 1386068067 6089 68bef84af3221951dc00f150e07222a0 ""
-  "Prés_Chierchia_0513.bbl" 1386068066 1984 07d2498043436ce500b23d46679f6deb "bibtex Prés_Chierchia_0513"
-  "Prés_Chierchia_0513.tex" 1386068065 34693 13ac898de0407c3493ef9d82745ca912 ""
-  "Prés_Chierchia_0513.toc" 1386068067 1661 d2bf2415a713167d8f0fb3037bf6ae16 ""
-=======
-  "Prés_Chierchia_0513.aux" 1386066640 5998 d5fc76a404b5c02afe5b06663d98cce0 ""
-  "Prés_Chierchia_0513.bbl" 1386066640 1984 07d2498043436ce500b23d46679f6deb "bibtex Prés_Chierchia_0513"
-  "Prés_Chierchia_0513.tex" 1386066638 34652 0476116ba5e462d51de1dba6cb4c8690 ""
-  "Prés_Chierchia_0513.toc" 1386066640 1588 47cad12ebeafc0fbee0b5cc04938234f ""
->>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
->>>>>>> 776079cfdf5a7b063ba966d700973fe9d5fc492e
+  "Prés_Chierchia_0513.aux" 1386068359 5556 75ca2a51fbf33bc90e87342aaee73056 ""
+  "Prés_Chierchia_0513.bbl" 1386068359 1984 07d2498043436ce500b23d46679f6deb "bibtex Prés_Chierchia_0513"
+  "Prés_Chierchia_0513.tex" 1386068357 34331 eac09758bf351b6b042ed16739d59327 ""
+  "Prés_Chierchia_0513.toc" 1386068359 1236 422d902ed9875a05d9aadfc9cc1d8849 ""
   (generated)
   "Prés_Chierchia_0513.aux"
   "Prés_Chierchia_0513.toc"

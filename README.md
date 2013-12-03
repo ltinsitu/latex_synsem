@@ -21,7 +21,7 @@
  Si on veut que tous les fichiers présents dans le dossier soient ajoutés.
 3. On doit ensuite 'commit' les changements:
 
- ```git commit -m "<commentaire_à_insérer_ici">```
+ ```git commit -m "<commentaire_à_insérer_ici>"```
 
 4. Il vaut mieux refaire les deux premières commandes ```git fetch``` et ```git pull``` pour être sûr qu'il n'y a pas de conflit entre les versions (au cas où un autre contributeur a modifié les mêmes parties du fichier en même temps). Si il y a un conflit, il faut se référer à [ce site](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line#creating-an-edit-collision) pour mieux comprendre comment faire, et utiliser un outil comme [meld](http://meldmerge.org/) grâce à la commande suivante:
  

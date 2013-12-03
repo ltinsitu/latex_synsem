@@ -35,7 +35,9 @@
 
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
-I'm adding some text.
+I'm adding some text. Bla
+
+\section{This is a test section}
 
 \section{Summary of the first presentation}
 \section{The last components of Chierchia's system}

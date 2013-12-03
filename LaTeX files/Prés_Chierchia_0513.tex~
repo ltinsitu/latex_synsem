@@ -37,16 +37,20 @@
 \addcontentsline{toc}{section}{Introduction}
 I'm adding some text. Bla
 
-<<<<<<< HEAD
 \section{Summary of the first presentation}
 
 gdjgjdfgljdcn cvpegerov
 
-=======
+
 \section{This is a test section}
 
 \section{Summary of the first presentation}
->>>>>>> 31e6647c3dbd3d7fa4c2806c1b9c653c1e29d949
+
+\section{Another test section}
+I'm writing, yay!
+\section{Summary of the first presentation}
+
+
 \section{The last components of Chierchia's system}
 \subsection{The syntax of exhaustification:}
 

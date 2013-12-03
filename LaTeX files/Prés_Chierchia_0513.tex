@@ -35,6 +35,7 @@
 
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
+<<<<<<< HEAD
 This presentation is devoted to present Gennaro Chierchia's book entitled \emph{Logic in Grammar} \citep{Chi13}.
 
 
@@ -507,6 +508,480 @@ Notice that the exhaustification of $\diamond$\verb![!p$\wedge$q\verb!]! is vacu
 % \paragraph{}
 % An evidence for this approach \citep{Fox07}: under negation, the disjunction doesn't have a FC interpretation.
 
+=======
+This presentation is devoted to present Gennaro Chierchia's book entitled \emph{Logic in Grammar} \citep{Chi13}. We will first recall you what we've done in the previous talk.
+
+
+\section{Summary of the first presentation}
+
+
+\section{The last components of Chierchia's system}
+\subsection{The syntax of exhaustification:}
+
+Recall that SIs come about through a covert operator that is used when lexically (or focus) activated alternatives are relevant to the conversational goals. Chierchia assumes that if the lexically induced alternatives are relevant/active, they must be factored into meaning through covert exhaustification, and vice versa: covert exhaustifiers are employed only when the alternatives of an alternative bearer are relevant.
+\\\textbf{Claim:} Exhaustification takes place in syntax in terms of feature checking/agreement, with the following condition: Use an O operator iff there is a trigger in its scope with active alternatives. 
+ \paragraph{}
+A typical example to illustrate feature agreement:
+\begin{exe}
+\ex\label{agree} \begin{xlist}
+\ex\label{agreea} I think, therefore I am.
+\ex\label{agreeb} I think, therefore [_{vP} I_{[1st\ p]} [_{vP} am_{[u\ p]} ] ]
+\end{xlist}
+\end{exe}
+The first person pronoun in the second clause triggers person agreement on the verb: the feature \verb![!1st p\verb!]! is semantically effective on the subject pronoun but not on the verb. The verb carries an unvalued person feature (\verb![!u p\verb!]!) that needs to be checked by the feature \verb![!1st p\verb!]!. The subject probes its c-command domain and targets the unvalued person feature on the verb, assigning it a value.
+\paragraph{}
+Adopting feature agreement in the system, Chierchia assumes that any scalar term carries a complex feature made up of two unvalued component \verb![!u$\sigma$, uD\verb!]! (henceforth \verb![!$\sigma$, D\verb!]!), which corresponds intuitively to the strictly scalar and the Domain-alternatives respectively. The notion of Domain-alternatives  (henceforth D-alternatives) was introduced by \cite{Sau04}. His claim was the following: as disjunction corresponds to an existential quantification of over \{p,q\}, each individual disjunct \{p,q\} is also among the alternatives for \verb![!p$\vee$ q\verb!]!. $\rightarrow$ D-alternatives are all the subdomains of the domain of disjunction/existential quantification.
+\\ Then, an exhaustifying operator O probes for the complex feature \verb![!$\sigma$, D\verb!]! in order to determine its restriction. There are three types of restrictions:
+
+\begin{enumerate}
+\item $\sigma$A ranging over strictly scalar alternatives. $\rightarrow$ $O_{\sigma A}$ looks for strictly scalar alternatives and assigns value "+" to the feature $\sigma$.
+\item (Exh-)DA ranging over (possibly pre-exhaustified) D-alternatives $\rightarrow$ O_{(Exh-)DA} looks for D-alternatives and assigns "+" to the feature D.
+\item ALT ranging over the total set of alternatives $\rightarrow$ O_{ALT} looks for the total set of alternatives and simultaneoulsy checks $\sigma$/D.
+\end{enumerate}
+In the absence of a c-commanding suitable operator, the complex feature  gets value "-" by default, signaling that the alternatives are inactive.
+\paragraph{}
+We will now illustrate how this works for some sentences.
+\begin{exe}
+\ex\label{oagree} \begin{xlist}
+\ex\label{oagreea} \begin{xlist}
+\ex\label{oagreeaa} $O_{\sigma A}$ [I will see Mary $or_{[+\sigma, -D]}$ Sue]
+\ex\label{oagreeab} Interpretation: I will see Mary or Sur but not both.
+\end{xlist}
+\ex\label{oagreeb} \begin{xlist}
+\ex\label{oagreeba} [I will see Mary $or_{[-\sigma, -D]}$ Sue]
+\ex\label{oagreebb} Interpretation: I will see Mary or Suror possibly both.
+\end{xlist}
+\ex\label{oagreec} \#O_{ALT}[I will see Mary $or_{[+\sigma,+D]}$ Sue]
+\ex\label{oagreed} * $O_{\sigma A}$ [I will see Mary $or_{[-\sigma, -D]}$ Sue]
+\end{xlist}
+\end{exe}
+
+\reff{oagreea} is syntactically well formed and transparently corresponds to the interpretation with the SI: the relevant set of alternatives is ALT= \{\verb![!p$\vee$q\verb!]!, \verb![!p$\wedge$q\verb!]!\} where p= I will see Mary, and q= I will see Sue. Therefore, $O_{\sigma A}$ [I will see Mary $or_{[+\sigma, -D]}$ Sue]= O_{ALT}\verb![!p$\vee$q\verb!]!= \verb![!p$\vee$q\verb!]!$\wedge\neg$ \verb![!p$\wedge$q\verb!]!
+\\\reff{oagreeb} is syntactically well formed and no implicature  are derived: the speaker is ignorant or the alternatives are irrelevant to the conversational goals.
+\\\reff{oagreec} is syntactically well formed but contradictory: as both D-alternatives and $\sigma$-alternatives are exhaustified, the relevant set of alternatives is ALT=\{\verb![!p$\vee$q\verb!]!, \verb![!p$\wedge$q\verb!]!, p, q\}. Therefore, O_{ALT}\verb![!I will see Mary $or_{[+\sigma,+D]}$ Sue\verb!]!= O_{ALT}\verb![!p$\vee$q\verb!]!= \verb![!p$\vee$q\verb!]!$\wedge\neg$ \verb![!p$\wedge$q\verb!]!$\wedge\neg$p$\wedge\neg$q. $\rightarrow$ Contradiction.
+\\\reff{oagreed} is syntactically ill-formed because $O_{\sigma A}$  must assign value "+" to the feature $\sigma$.
+
+\subsection{Grammaticality and (un)formativity}
+
+ As argued in section 1, a sentence like \reff{grama} where a NPI appears in a non-DE context is contradictory. It thus should have the same status as the sentence in \reff{gramb}.
+ \begin{exe}
+ \ex\label{gram} \begin{xlist}
+ \ex\label{grama} *There are any cookies left.
+ \ex\label{gramb} Right now, it is raining and it is not raining.
+ \end{xlist}
+ \end{exe}
+ However, the deviance of (\ref{grama}) is perceived differently from that of (\ref{gramb}): (\ref{grama}) is perceived as grammaticaly deviant whereas (\ref{gramb}) is not perceived as such; it is a sentence that taken literally cannot be true. How can we explain that?
+ \paragraph{}
+ Key concept belonging to the historical debate on analyticity \citep{Car34,Qui60}: 
+ \begin{exe}
+ \ex \textbf{L-analiticity:} A sentence is logically true or false iff its truth (or, respectively, falsehood) depends solely on `logical' words, and the way they are put together in a sentence. 
+ \end{exe}
+ For example, a contradiction of the form $p\wedge \neg p$ is L-analytic because its falsehood depends on the meaning of $\wedge$ and $\neg$ and how they are put together, regardless the meaning of p.
+ \\\textbf{Claim:} L-analyticity plays a fundamental role in the semantics of natural language, once we see how to separate expressions that are L-analytic just because of the role played by grammatical formatives from other tautologies.
+ \paragraph{}
+ Grammar-internal contradictions vs. non-grammar internal contradictions:
+ \\The distinction between the functional skeleton of the clause and its lexical material is central to the definition of L-trivitality.
+ \\Consider the following examples, for which we have the same perception as in (\ref{gram}):
+ \begin{exe}
+ \ex\label{gram1} \begin{xlist}
+ \ex\label{gram1a} *Some student but John smokes.
+ \ex\label{gram1b} John smokes and doesn't smoke.
+ \end{xlist}
+ \end{exe}
+ While (\ref{gram1a}) is perceived as grammaticaly deviant, (\ref{gram1b}) is not perceived as such.
+ \begin{exe}
+ \ex\label{gtri} \textbf{G-triviality:} A  sentence $\Phi$ is G-trivial iff for any situation s and model M, \eval{$\Phi$'}^{M,s}= same (where same is either 1 or 0) and $\Phi$' is obtained by an arbitrary substitution of its lexical terminal nodes.
+ \end{exe}
+ $\rightarrow$ A sentence is defined as G-trivial if it is true or false, regardless of how the lexical terminals are replaced in the structure; G-trivial sentences are only based on the functional lexicon.
+ \\Going back to the examples in (\ref{gram1}):
+ \begin{itemize}
+ \item (\ref{gram1a}) is G-trivial: \verb![!some P but x Q\verb!]! is contradictory no matter how we substitute P and Q in it.
+ \item But (\ref{gram1b}) is not G-trivial: there are substitutions of P in \verb![! x P and not P\verb!]! that do not give rise to a contradiction (for example, if we substitute the two occurrences of P with distinct lexical items).
+ \end{itemize}
+ \begin{exe}
+ \ex\label{taut} \textbf{Tautologies/Contradictions (L-triviality):} A sentence $\Phi$ is tautologous/contradictory iff for any situation s and model M, \eval{$\Phi$'}^{M,s}=1/0 where $\Phi$' is obtained from $\Phi$ by a uniform\footnote{A substitution is uniform if distinct occurrences of an item v are replaced by the same item v'.} substitution of its lexical terminal nodes.
+ \end{exe}
+ $\rightarrow$ L-trivial sentences are based on the functional lexicon and whether occurences of lexical materials are the same or different.
+ \\We can thus conclude that (\ref{gram1b}) is L-trivial: with a uniform substitution of P in \verb![! x P and not P\verb!]!, this sentence is contradictory.
+ \paragraph{}
+ The distinction between G-triviality and L-triviality can explain the different perceptions we had for the sentences in \reff{gram}:
+ \begin{itemize}
+ \item \textit{There are any cookies left.} (\reff{grama}) is perceived as grammaticaly deviant because it is G-trivial (and L-trivial): the fact that it is contradictory is only based on the functional lexicon. 
+ \\$\rightarrow$ Grammar-internal contradiction. 
+ \item \textit{Right now, it is raining and it is not raining.} (\reff{gramb}) is not perceived as grammaticaly deviant because it is L-trivial, and not G-trivial: the fact that it is contradictory is based on the functional lexicon and whether occurrences of lexical materials are the same or different.  
+ \\$\rightarrow$ Non-grammar internal contradiction. 
+ \end{itemize}
+
+\section{The Derivation of NPIs}
+
+\subsection{NPIs and Indefinites}
+If you look at minimal pairs of sentences in \reff{npivsindef}, where one contains a NPI like \enquote{\emph{any}} or \enquote{\emph{ever}}, and the other a plain indefinite (\enquote{\emph{a}}) or a bare noun (singular or plural), you can perceive a difference in strength/emphasis: sentences with NPIs feel more emphatic, or less exception tolerant than sentences with indefinites/bare nouns.
+
+\exs[\label{npivsindef}]{
+  \ex\label{npivsindefa}
+    \begin{xlist}
+      \ex I do not like republicans.
+      \ex I do not like any republican.
+    \end{xlist}
+  \ex
+    \begin{xlist}
+      \ex I will never vote for a republican.
+      \ex I will never vote for any republican.
+    \end{xlist}
+  \ex
+    \begin{xlist}
+      \ex I do not vote republican.
+      \ex I do not ever vote republican.
+    \end{xlist}
+}
+
+It is possible to have this intuition reinforced when you look at the behaviour of NPIs vs. indefinites in situations where you add contrastive stress. Look at the two dialogues in \reff{stress}.
+
+\exs[\label{stress}]{
+  \ex\label{stressa} Dialogue I
+    \begin{xlist}
+      \ex A: Do you have an egg?
+      \ex B: No.
+      \ex A: Maybe a pickled one?
+      \ex B: I don't have \textbf{ANY} egg.
+    \end{xlist}
+  \ex\label{stressb} Dialogue II
+    \begin{xlist}
+      \ex A: Do you have any egg?
+      \ex B: No.
+      \ex A: Maybe a pickled one?
+      \ex B: *I don't have \textbf{AN} egg.
+    \end{xlist}
+}
+%
+The last sentence of \reff{stressa} is grammatical whereas the last one of \reff{stressb} is not.
+
+\paragraph{}
+Both indefinites and NPIs are interpreted as existentials; \enquote{\emph{any}} is similar to \enquote{\emph{a}}/\enquote{\emph{some}}, and \enquote{\emph{ever}} is similar to \enquote{\emph{sometimes}}. If you look at a possible semantic value for sentences \reff{npivsindefa}, the truth conditions seem to be the same, regardless of the presence or absence of a NPI:
+
+\begin{exe}
+  \exp{npivsindefa} $\neg \exists{x \in D}~[$republican$(x)~\wedge~$I like $x$]
+\end{exe}
+
+So, what is the difference between \emph{any} and \emph{a}? Chierchia claims that they are not interpreted exactly in the same way because they are not \emph{restricted to the same \textbf{domains}}.
+
+\exs[\label{cookiesex}]{
+  \ex There aren't \lb{NP,~D}cookies\rb{} left.\\
+                       $= \neg \exists{x \in D}~[$cookies$(x)~\wedge~$left$(x)]$\\
+                       There aren't things [\emph{in the usual places in the kitchen}] which are cookies and are left (uneaten)\footnote{In italics and between brackets is indicated what is the contextually relevant domain for the sentence. For example, the contextually relevant domain for \reff{cookiesex} is a set formally described as: \{$x$: $x$ is in the usual places in the relevant kitchen\}}.
+  \ex There aren't \lb{DP,~D^{\prime}}any cookies\rb{} left.\\
+      $= \neg \exists{x \in D^{\prime}}~[$cookies$(x)~\wedge~$left$(x)]$\\
+      There aren't things [\emph{in the usual or unusual places in the kitchen}] which are cookies and are left (uneaten).
+  \ex\label{domainsubset} D $\subseteq$ D^{\prime}
+}
+%
+In \reff{cookiesex}, the domains associated with \emph{any} and \emph{a} are not the same: the domain associated with the NPI is \emph{broader} than the domain associated with the indefinite, the set contains more elements. Moreover, every element in the domain of indefinites is also in the domain of NPIs (this is expressed formally in \reff{domainsubset}.
+
+
+\subsection{Derivation of NPI \textit{any}}
+\textbf{Claim:} \emph{Any} carries an inherent focal feature $F$ (that remains phonologically unrealized) which signals that it is associated with a set of alternatives constrained as follows:
+
+\begin{exe}
+  \ex\label{derivany}
+    \begin{xlist}
+      \ex\label{derivanya} \eval{There aren't any$_{F,D}$ cookies left.} $= \neg\exists x \in D$ [cookies(x) $\wedge$ left(x)]
+      \ex\label{derivanyb} ALT $=$ \{$\neg\exists x \in D$ [cookies(x) $\wedge$ left(x)]: D'$\subseteq$ D \}
+      \ex\label{derivanyc} \eval{any_{F,D}} $= \lambda{P}.~\lambda{Q}.~\exists{x} \in D~[P(x)\wedge Q(x)]$
+      \ex\label{derivanyd} \eval{any_{F,D}}^F $=$ \{$\lambda{P}.~\lambda{Q}.~\exists{x} \in D'~[P(x)\wedge Q(x)]:D'\subseteq D$ \}
+    \end{xlist}
+\end{exe}
+%
+This focal feature on \textit{any} is the lexical property that distinguishes it from plain existentials; it states that the alternatives with which a statement involving \textit{any} can be contrasted involve existentials with smaller domains.
+
+Then, the semantic value for \emph{any} in \reff{derivanyc} (when it does not bear the feature $F$) is equivalent to that of indefinites, and the semantic value of \emph{any} in \reff{derivanyd} (with $F$) is the one we want for this lexical item as a NPI.
+
+\paragraph{}
+Let's look at the derivation of \emph{any} in \reff{eggok}:
+\exs[\label{eggok}]{
+	\ex A: Do you have an_{D_1} egg?
+	\ex B: No, I don't have \textbf{ANY}_{D_2} egg.
+}
+%
+Contrastive stress on \emph{any} is a way of spelling out its inherent focal feature, which is associated with subdomain alternatives. We have the following:
+
+\exs[\label{eggokvalsem}]{
+	\ex \eval{I don't have an_{D_1} egg} $\in$ \eval{I don't have any_{F,D_2} egg}^F
+	\ex \eval{I don't have an_{D_1} egg} $\in$ \{$\neg \exists{x \in D^{\prime}}~[(x)$egg$~\wedge~$I have $x]: D^{\prime} \subset D_2$\} 
+}
+%
+The domain variable associated with \enquote{\emph{an egg}}, marked as D_1, must range over some subset of the one associated with \enquote{\emph{any egg}}, marked as D_2. \emph{Any} acts as a \enquote{domain widener}.
+
+\paragraph{}
+If \emph{any} always activate alternatives, it must be associated with an alternative sensitive operator, like \emph{O} (silent \emph{only}). The logical form for \reff{anyo} is \reff{anyoLF}:
+
+\exs{
+	\ex\label{anyo} There aren't any_{F,D} cookies left.
+	\ex\label{anyoLF} O_C [There aren't any_{F,D} cookies left]
+}
+%
+This operator \emph{O_C} will not exhaustify alternatives that are entailed by the proposition.
+
+\paragraph{Why \emph{any} cannot appear in UE contexts}
+\exs{
+	\ex[*]{There are any_D cookies left.}\label{anyue}
+	\ex\label{anyuemeaning} $\exists{x \in D}~[$cookies$(x)~\wedge~$left$(x)]$ \hfill [\emph{$D =$ things in the kitchen}]	
+	\ex\label{anyuealt} \{$\exists{x \in D^{\prime}}~[$cookies$(x)~\wedge~$left$(x)]: D^{\prime} \subset D$\}
+	\ex\label{anyuealtexamples} There are cookies left in the cupboard,\\
+		There are cookies left on the kitchen table,\\
+		There are cookies left in the oven\ldots{}
+}
+
+When any does not appear in a DE context, but a UE context, the situation is different. If \reff{anyue} was grammatical, it would be similar to a sentence with a plain existential, and its meaning would be \reff{anyuemeaning}. However, the meaning of \emph{any} forces it to activate alternatives in \reff{anyuealt}~--~some examples of these alternatives are in \reff{anyuealtexamples} (with respect to the domain defined in \reff{anyuemeaning}).
+
+\exs{
+	\ex\label{anyueo} O_C [There are any_D cookies left] $=$
+	\ex\label{anyueoalt} There are cookies left in the kitchen, \textbf{BUT}:\\
+						 There are \emph{no} cookies left in the cupboard, and\\
+						 There are \emph{no} cookies left on the kitchen table, and\\
+						 There are \emph{no} cookies left in the oven\ldots{}
+}
+%
+Then, we have to exhaustify with a silent \emph{only} (as in \reff{anyueo}, the LF of \reff{anyue}), and eliminate all alternatives not entailed by the assertion. This is the case for every alternative in \reff{anyuealt}, so we have to eliminate all of them (as in \reff{anyueoalt}).
+
+Finally, we obtain the interpretation for sentence \reff{anyue}. This sentence means that there are cookies left in the relevant domain (here the kitchen), but that there are no cookies left for every subdomain of the kitchen (no cookies in the cupboard, no cookies on the kitchen table, no cookies in the oven\ldots{}).
+
+$\Rightarrow$ This is clearly a \emph{contradiction}, and that's why NPI \enquote{\emph{any}} \emph{cannot} appear in UE contexts.
+
+%~ \begin{figure}[!h]
+  %~ \centering
+  %~ \begin{tabular}{|m{1.9cm}|c|c|c|c|c|c|}
+    %~ \cline{2-6}
+    %~ \multicolumn{1}{c|}{} & \emph{ever} & \emph{any} & \emph{koii bhii} & \emph{irgendein} & \ldots \\
+    %~ \hline
+    %~ Restriction of \emph{every} & \checkmark & \checkmark &  &  &  \\
+    %~ \hline
+    %~ Scope of \emph{every} & {*} & {*} &  &  &  \\
+    %~ \hline
+    %~ Positive sentence & \checkmark & \checkmark &  &  &  \\
+    %~ \hline
+    %~ Negative sentence & * & * &  &  &  \\
+    %~ \hline
+    %~ FC uses & * & \checkmark &  &  &  \\
+    %~ \hline
+  %~ \end{tabular}
+  %~ \caption{Distribution of NPIs}
+%~ \end{figure}
+\section{Weak vs. Strong NPIs}
+
+Recall that NPIs such as \textit{any} and \textit{ever} are always licensed in DE contexts, but never in UE contexts. There NPIS are called \textit{weak NPIs}. Some NPIs, such as \textit{in weeks} and \textit{until} in English can only appear in a limited subset of DE contexts; they are called \textit{strong NPIs}.
+\begin{exe}
+\ex\label{wkstr} \begin{xlist}
+\ex\label{wkstr1} \begin{xlist}
+\ex\label{wkstr1a} John didn't see Mary \textbf{in weeks}. 
+\ex\label{wkstr1b} John didn't \textbf{ever} see Mary. ???
+\end{xlist}
+\ex\label{wkstr2} \begin{xlist}
+\ex\label{wkstr2a} *If John has seen Mary \textbf{in weeks}, he will be upset.
+\ex\label{wkstr2b} If John had \textbf{ever} heard about linguistics, he would be here today.
+\end{xlist}
+\ex\label{wkstr3} \begin{xlist}
+\ex\label{wkstr3a} *At most five students have seen me \textbf{in weeks}.
+\ex\label{wkstr3b} At most five students had \textbf{ever} heard about linguistic.
+\end{xlist}
+\end{xlist}
+\end{exe}
+Although propositional negation, the antecedent of conditional and the quantifier \textit{at most} are DE contexts, the NPI \textit{in weeks} can only appear in the scope of the propositional negation (\reff{wkstr1a}). It seems that being DE is not sufficient for licensing strong NPIs.
+\\Zwarts(1996)'s generealization: Strong NPIs can only appear in Anti-additive (henceforth AA) contexts. 
+\begin{exe}
+\ex\label{aa} Anti-additivity \\$\Phi$ is anti-additive iff $\Phi(\alpha\vee\beta) \leftrightarrow \Phi(\alpha)\wedge \Phi(\beta)$
+\end{exe}
+Being AA is stronger than being DE: every AA item is also DE, whereas many DE items are not AA.
+\begin{exe}
+\ex\label{aa1} \begin{xlist}
+\ex\label{aaneg} John doesn't smoke or drink. $\leftrightarrow$ John doesn't smoke and doesn't drink.
+\\$\Rightarrow$ Sentential negation is an AA item.
+\ex\label{aaatmost} At most five students smoke or drink. $\rightarrow$ At most five students smoke and at most five students drink.
+\\$\Rightarrow$ The quantifier \textit{at most} is only a DE item.
+\end{xlist}
+\end{exe}
+Three issues ...:
+\begin{enumerate}
+\item The property of being AA doesn't describe accurately the contexts that license strong NPIs; there are few cases in which AA seems not to be descriptively adequate.
+\begin{exe}
+\ex\label{everyno} \begin{xlist}
+\ex\label{argevery} \begin{xlist}
+\ex\label{argeverya} Every red or blue book is on the table. $\leftrightarrow$ Every red book is on the table and every blue book is on the table.
+\ex\label{argeveryb} *Every person who has seen Mary in weeks is upset with her.
+\end{xlist}
+\ex\label{argno} \begin{xlist}
+\ex\label{argnoa} No red or blue book is on the table. $\leftrightarrow$ No red book is on the table and no blue book is on the table.
+\ex\label{argnob} *No person who has seen Mary in weeks is upset with her. ??? 
+\end{xlist}
+\end{xlist}
+\end{exe}
+While the left arguments of the quantifiers \textit{every} and \textit{no} are AA, as schown in \reff{argeverya} and \reff{argnoa} respectively, they cannot licensed the strong NPIs \textit{in weeks} (\reff{argeveryb},\reff{argnob}).
+\item Presupposition triggers never license strong NPIs.
+\begin{exe}
+\ex\label{presuptrig} \begin{xlist}
+\ex\label{presuptriga} *Only John saw Mary in weeks. 
+\ex\label{presuptrigb} *John was surprised that he saw Mary in weeks.
+\end{xlist}
+\end{exe}
+Therefore, while weak NPIs are licensed in the local scope of SDE operators (i.e. are sensitive to S-entailment), strong NPIs are licensed in the local scope of AA operators 
+characterized in therms of classical entailment (i.e. are sensitive to plain entailment).
+\item As the distribution of weak NPIs does in this system, the distribution of strong NPIs must fall out from thier lexical semantics and the way it interacts with independent elements that may be present in their structure. 3 possibilities within this system to explain the distribution of strong NPIs:
+\begin{itemize}
+\item some common feature in the lexical meaning of strong NPIs;
+\item the type of alternatives strong NPIs activate;
+\item the type of exhaustification strong NPIs invoke.
+\end{itemize}
+\end{enumerate}
+$\Rightarrow$ How can we understand the distinction between weak and strong NPIs within this exhaustification-based  system?
+\\General idea: Meaning has several dimensions: 1 - a pure truth conditional component; 2 - a presuppositional component and 3 - an implicature component.
+\begin{exe}
+\ex\label{mean} \begin{xlist}
+\ex\label{mean1} Not every student of John's drink.
+\ex\label{mean2} \begin{xlist}
+\ex\label{mean2a} Truth conditions: $\neg\forall x$[student of j(x)$\rightarrow$drink(x)]
+\ex\label{mean2b} Implicature: $\exists$x[student of j(x) $\wedge$ drink(x)]
+\ex\label{mean2c} Presupposition: $\exists$x[student of j(x)]
+\end{xlist}
+\end{xlist}
+\end{exe}
+Claim: Strong NPIs, as weak NPIs, activate logically stronger alternatives, but While weak NPIs just need to exhaustify the truth-conditional component of meaning, strong NPIs need to be exhaustified with respect to all the dimensions of meaning.
+\paragraph{}
+Illustration with the strong NPI \textit{in weeks}:
+\\To begin with, Chierchia assumes that \textit{in XPs} is an event modifier meaning something like `over a temporal span lasting one or more XPs'.
+\begin{exe}
+\ex\label{inwiks} \begin{xlist}
+\ex\label{inwiksa} *Joe met Mary in weeks.
+\ex\label{inwiksb} $\exists$e[met_w(e,j,m)$\wedge$cul(e)$\wedge\tau$(e)$\subset$ WEEKS] with cul=culminated, $\tau$(e)=the temporal span of e and $\subset$ stands for temporal inclusion
+\ex\label{inwiksc} There is a culminated event of Joe meeting Mary whose temporal span is included in a period of one or more weeks long.
+\end{xlist}
+\end{exe}
+\reff{inwiksb}: Truth-conditions of \reff{inwiksa}.
+\\Now, as \textit{in weeks} in an NPI, it is the weak element of a range of grammatically determined alternatives.
+\begin{exe}
+\ex\label{altiw} Alternatives: \begin{xlist}
+\ex\label{altiwa} Joe met Mary in D, where D is a time interval smaller than \textit{weeks}.
+\ex\label{altiwb} $\exists$e[met_w(e,j,m)$\wedge$cul(e)$\wedge\tau$(e)$\subset$ D]
+\end{xlist}
+\end{exe}
+Notice that as the alternatives of the form (\reff{altiwb}) entail (\reff{inwiksb}), if we fulfill the usual exhaustification, we would expect \textit{in weeks} to behave as weak NPIs. However, recall that \textit{in weeks} need to be exhaustified with respect to the presuppositions and the implicatures of its environment.
+\begin{enumerate}
+\item Role of presuppositions: 
+\item Role of implicatures:
+\end{enumerate}
+
+
+\section{The Free Choice uses of disjunction}
+
+% Moreover, Chierchia assumes Multiple Agree: the operator can target a series of unvalued features in its c-command domain.
+% \\\textbf{Prediction of this analysis:} If exhaustification is syntactic, when a probe targets two distinct goals,  we expect to find minimality effects.
+% \begin{exe}
+% \ex\label{mineff} \begin{xlist}
+% \ex\label{mineffa} I doubt that a student will have any complaint.
+% \ex\label{mineffb} ??I doubt that every student of mine will have any complaint.
+% \end{xlist}
+% \end{exe}
+% Sentence (\ref{mineffb}) appears degraded with respect to \reff{mineffa}. Phenomenon of intervention effect when the quantifier \textit{every} intervenes between the NPI and its licensor. Why?
+% \begin{exe}
+% \ex\label{mineff1} \begin{xlist}
+% \ex\label{mineff1a} $O_{DA/\sigma A}$ I doubt that $a_{[+\sigma,+D]}$ student will have $any_{[+\sigma,+D]}$ complaint.
+% \ex\label{mineff1b} *$O_{DA/\sigma A}$ I doubt that $every_{[+\sigma,+D]}$ student of mine will have $any_{[+\sigma,+D]}$ complaint.
+% \end{xlist}
+% \end{exe}
+% A expliquer.
+
+The following sentence has two salient readings, \reff{fcdisj0a} and \reff{fcdisj0b}:
+\begin{exe}
+\ex\label{fcdisj0} You may take ice cream or cake. $\diamond$\verb![!p$\vee$q\verb!]! where p=you may take ice cream and q=you may take cake\begin{xlist}
+\ex\label{fcdisj0a} You are allowed to take ice cream and you are allowed to take cake. $\diamond p\wedge\diamond q$
+\ex\label{fcdisj0b} You are allowed to take ice cream and you are also allowed to take cake but you are not allowed to take them both. $\diamond p\wedge\diamond q\wedge\neg \diamond$\verb![!p$\wedge$q\verb!]!
+\end{xlist}
+\end{exe}
+In each interpretation, \textit{or} conveys \textit{and}: each disjunction is understood as an admissible way of respecting the permission.
+This phenomenon, well-known as \textit{FC effect}, occurs in this sentence, because a modal element takes scope over disjunction\footnote{Notice that this phenomenon can also take place when disjunction occurs under modals of necessity:
+\begin{exe}
+\ex\label{fcmodnec} \begin{xlist} 
+\ex\label{fcmodneca} For this class, you must write a paper or run an experiment. $\square$ \verb![!p$\vee$q\verb!]! 
+\ex\label{fcmodnecb} For this class, you are allowed to write a paper and you are allowed to run an experiment.  $\diamond p\wedge\diamond q$
+\end{xlist}
+\end{exe}}
+\\The same phenomenon occurs in the following sentence: \reff{fcany0} is interpreted as saying that each cake is an admissible way of respecting the permission (interpretation in \reff{fcany0b}):
+\begin{exe}
+\ex\label{fcany0}  You may take any cake. \begin{xlist}
+\ex\label{fcany0a} $\diamond$\verb![!a_1$\vee$a_2$\vee$a_3$\vee$...\verb!]!
+\ex\label{fcany0b} $\diamond a_1\wedge\diamond a_2\wedge\diamond a_3\wedge...$
+\end{xlist}
+\end{exe}
+$\Rightarrow$  Signature property of the FC effect:
+\begin{exe}
+\ex\label{fc} $\diamond$\verb![!a_1$\vee$a_2$\vee$a_3$\vee$...\verb!]! $\Rightarrow $ $\diamond a_1\wedge\diamond a_2\wedge\diamond a_3\wedge...$
+\end{exe}
+
+\paragraph{}
+It is important to notice that the FC effect tends to disappear under negation (and in any DE contexts):
+\begin{exe}
+\ex\label{fcneg} You cannot have ice cream or cake. $\neg\diamond$\verb![!p$\vee$q\verb!]!\begin{xlist}
+\ex\label{fcnega} You cannot have ice cream and you cannot have cake. $\neg\diamond p\wedge\neg\diamond q$ (=$\neg\diamond$\verb![!p$\vee$q\verb!]!)
+\ex\label{fcnegb} $\neg$\verb![!$\diamond p\wedge\diamond q$\verb!]!
+\end{xlist}
+\end{exe}
+\reff{fcneg} is interpreted as \reff{fcnega} and not as \reff{fcnegb}, which is the expected interpretation with a FC effect. However, this interpretation, \textit{It is not the case that you are both allowed to have ice cream and allowed to have cake} is weaker than the interpretation in \reff{fcnega}. is not weaker. Therefore, \reff{fcneg} isn't interpreted with a FC effect.
+$\Rightarrow$ We can observe a parallel between the distribution of SIs, which are harder to process in DE contexts and the FC effect, which tends to disappear in these contexts, suggesting that the FC effect is an implicature of sort.
+\paragraph{}
+Going back to the example \reff{fcdisj0}, we will discuss how FC disjunction is derived.
+
+\begin{exe}
+	\ex\label{fcdisj}
+		\begin{xlist}
+			\ex\label{fcdisja} You may take ice cream or cake.
+			\ex\label{fcdisjb} Extended scalar alternatives (where p $=$ \emph{you may take ice cream} and q $=$ \emph{you may take cake}):\\
+				\indent \hspace{4cm} $\diamond$\verb![!p$\vee$q\verb!]!\\[0.2cm]
+				\indent \hspace{2.5cm} $\diamond$p \hspace{3.25cm} $\diamond$q \hfill $\Rightarrow$ D-alternatives\\[0.2cm]
+				\indent \hspace{4cm} $\diamond$\verb![!p$\wedge$q\verb!]! \hfill $\Rightarrow$ $\sigma$-alternatives
+		\end{xlist}
+\end{exe}
+\vspace{0.3cm}
+If we exhaustify the assertion with respect to this set of alternatives, we get a contradiction:
+
+\begin{exe}
+\ex\label{fccontr} O_c($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge$ $\neg\diamond$p $\wedge$ $\neg\diamond$q $\wedge$ $\neg\diamond$\verb![!p$\wedge$q\verb!]!
+\end{exe}
+Nevertheless, the alternatives against which the assertion (\ref{fcdisja}) is assessed are not exactly those in (\ref{fcdisjb}).
+To illustrate, if you ask someone informed, which of the propositions in (\ref{fcdisjb}) are true, you would interpret his answer exhaustively.
+\begin{exe}
+\ex\label{questalt} \begin{xlist}
+\ex\label{questalta} A: Which of the propositions in (\ref{fcdisjb}) is tru? $\Leftrightarrow$ What are you allowed to eat fro the set \{the cake, the ice cream\}?
+\ex\label{questaltb} B: You are allowed to eat the ice cream. $\Leftrightarrow$ $\diamond$p
+\end{xlist}
+\end{exe}
+We interpret B's answer as: You are allowed to eat the ice cream and you are not allowed to eat the cake. $\Leftrightarrow$ O($\diamond$p)=$\diamond$p$\wedge$$\neg\diamond$q.
+
+Therefore, the alternatives that have to be considered for the assertion in (\ref{fcdisja}) are the exhaustified alternatives, as follows:
+
+\begin{exe}
+  \ex\label{exhalt} Exh-ALT:\\[0.2cm]
+    \indent \hspace{2.5cm} O_{ALT}$\diamond$p \hspace{3.25cm} O_{ALT}$\diamond$q \hfill $\Rightarrow$ D-alternatives\\[0.2cm]
+    \indent \hspace{4.6cm} O_{ALT}$\diamond$\verb![!p$\wedge$q\verb!]! \hfill $\Rightarrow$ $\sigma$-alternatives
+\end{exe}
+%
+Notice that the exhaustification of $\diamond$\verb![!p$\wedge$q\verb!]! is vacuous, because the scalar alternative is the strongest member of the alternative set.
+\\Now, if we exhaustify (\ref{fcdisja}) with respect to these exhaustified alternatives, we obtain the following derivation:
+\begin{exe}
+\ex\label{derivfc} \begin{xlist}
+\ex\label{derivfca} O_{Exh-ALT}($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge\neg$O_{ALT}$\diamond$p$\wedge\neg$O_{ALT}$\diamond$q$\wedge\neg$O_{ALT}$\diamond$\verb![!p$\wedge$q\verb!]!
+\ex\label{derivfcb} \begin{xlist}
+\ex\label{derivfcba} $\neg$O_{ALT}$\diamond$p=$\neg$\verb![!$\diamond$p$\wedge\neg\diamond$q\verb!]!=\verb![!$\diamond$p$\rightarrow\diamond$q\verb!]!
+\ex\label{derivfcbb} $\neg$O_{ALT}$\diamond$q=$\neg$\verb![!$\diamond$q$\wedge\neg\diamond$p\verb!]!=\verb![!$\diamond$q$\rightarrow\diamond$p\verb!]!
+\ex\label{derivfcbc} $\neg$O_{ALT}$\diamond$\verb![!p$\wedge$q\verb!]!=$\neg\diamond$\verb![!p$\wedge$q\verb!]!
+\end{xlist}
+\ex\label{derivfcc} O_{Exh-ALT}($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge$\verb![!$\diamond$p$\rightarrow\diamond$q\verb!]!$\wedge$O\verb![!$\diamond$q$\rightarrow\diamond$p\verb!]!$\wedge\neg\diamond$\verb![!p$\wedge$q\verb!]!
+\end{xlist}
+\end{exe}
+\reff{derivfcc} says that one of $\diamond$p or $\diamond$q is true and, if one of the two is true, the other also must be true, which is equivalent to $\diamond p\wedge\diamond q\wedge \neg\diamond$\verb![!p$\wedge$q\verb!]!.
+\\$\Rightarrow $ One of the prominent reading of \textit{You may take ice cream or cake.} is derived: you are not allowed to take both, but each one is an available option.
+
+% \paragraph{}
+% An evidence for this approach \citep{Fox07}: under negation, the disjunction doesn't have a FC interpretation.
+
+>>>>>>> 248c8cd02a28312c82a9e18b5a3d74724ae367e7
 
 
 

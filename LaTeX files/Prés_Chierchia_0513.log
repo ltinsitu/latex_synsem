@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.12)  3 DEC 2013 11:54
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.30)  3 DEC 2013 13:35
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.12)  3 DEC 2013 11:30
+>>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
+>>>>>>> 776079cfdf5a7b063ba966d700973fe9d5fc492e
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,7 +942,15 @@ c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/stmaryrd/stmary10.pfb>
+<<<<<<< HEAD
 Output written on Prés_Chierchia_0513.pdf (10 pages, 378575 bytes).
+=======
+<<<<<<< HEAD
+Output written on Prés_Chierchia_0513.pdf (10 pages, 377724 bytes).
+=======
+Output written on Prés_Chierchia_0513.pdf (10 pages, 378278 bytes).
+>>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
+>>>>>>> 776079cfdf5a7b063ba966d700973fe9d5fc492e
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams

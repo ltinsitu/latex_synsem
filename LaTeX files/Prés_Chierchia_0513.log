@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.30)  3 DEC 2013 13:35
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.12)  3 DEC 2013 11:30
+>>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,13 +10,16 @@ entering extended mode
 (./Prés_Chierchia_0513.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
-hiopic, croatian, bulgarian, ukrainian, russian, slovak, czech, danish, dutch, 
-finnish, french, basque, ngerman, german, swissgerman, ngerman-x-2012-05-30, ge
-rman-x-2012-05-30, monogreek, greek, ibycus, ancientgreek, hungarian, italian, 
-latin, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, esperanto, coptic,
- welsh, irish, interlingua, serbian, serbianc, slovenian, friulan, romansh, est
-onian, romanian, armenian, uppersorbian, turkish, afrikaans, icelandic, kurmanj
-i, polish, portuguese, galician, catalan, spanish, swedish, ukenglish, loaded.
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -290,7 +297,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/var/lib/texmf/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
+Package: babel 2008/07/08 v3.8m The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
@@ -845,43 +852,45 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 32.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./Prés_Chierchia_0513.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
+
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 10.
+
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 9.
+(Font)              <10.95> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(Font)              <6> on input line 10.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd))
 \tf@toc=\write3
@@ -891,23 +900,23 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 213.
+(Font)              <9> on input line 215.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 213.
+(Font)              <5> on input line 215.
  [5] [6]
-Overfull \hbox (5.34164pt too wide) in paragraph at lines 325--328
+Overfull \hbox (5.34164pt too wide) in paragraph at lines 327--330
 \T1/lmr/m/n/10.95 Zwarts(1996)'s ge-ne-rea-li-za-tion : Strong NPIs can only ap
 -pear in Anti-additive (hen-ce-forth AA) contexts. 
  []
 
 [7] [8] [9] (./Prés_Chierchia_0513.bbl) [10] (./Prés_Chierchia_0513.aux) ) 
 Here is how much of TeX's memory you used:
- 5823 strings out of 493599
- 75466 string characters out of 3148204
- 150397 words of memory out of 3000000
- 8964 multiletter control sequences out of 15000+200000
+ 5823 strings out of 493485
+ 75466 string characters out of 3143526
+ 151419 words of memory out of 3000000
+ 8986 multiletter control sequences out of 15000+200000
  74023 words of font info for 65 fonts, out of 3000000 for 9000
- 943 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  30i,5n,32p,830b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/u
 sr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvi
@@ -929,7 +938,11 @@ c/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/stmaryrd/stmary10.pfb>
+<<<<<<< HEAD
 Output written on Prés_Chierchia_0513.pdf (10 pages, 377724 bytes).
+=======
+Output written on Prés_Chierchia_0513.pdf (10 pages, 378278 bytes).
+>>>>>>> 44dfa154410b96ea7e8a3b1a5c4b8968abb8400a
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams

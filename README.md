@@ -10,23 +10,18 @@
 	
  Pour récupérer les fichiers sur le serveur.
 
-2. Une fois le travail sur le(s) fichier(s) terminé, il faut ajouter ce fichier dans la 'staging area', d'où il sera envoyé par la suite sur le serveur GitHub:	
+2. Une fois le travail sur le(s) fichier(s) terminé, il faut ajouter ce fichier dans la 'staging area', d'où il sera envoyé par la suite sur le serveur GitHub, et 'commit' les changements (on peut faire tout ça en une seule commande):	
 
- ```git add <nom_de_fichier>```
+ ```git commit -a -m "<commentaire_à_insérer_ici>"```
 
- Ou:
-
- ```git add .```
-
- Si on veut que tous les fichiers présents dans le dossier soient ajoutés.
-3. On doit ensuite 'commit' les changements:
-
- ```git commit -m "<commentaire_à_insérer_ici>"```
-
-4. Il vaut mieux refaire les deux premières commandes ```git fetch``` et ```git pull``` pour être sûr qu'il n'y a pas de conflit entre les versions (au cas où un autre contributeur a modifié les mêmes parties du fichier en même temps). Si il y a un conflit, il faut se référer à [ce site](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line#creating-an-edit-collision) pour mieux comprendre comment faire, et utiliser un outil comme [meld](http://meldmerge.org/) grâce à la commande suivante:
+3. Il faut ensuite récupérer ce qu'il y a sur le dépôt, au cas où une autre personne a modifié des fichiers entre temps. On utilise d'abord:
  
- ```git mergetool```
+  ```git fetch```
+
+ Puis:
+
+ ```git pull origin master```
  	
-5. Ensuite, il faut envoyer le tout au dépôt:
+4. Ensuite, il faut envoyer le tout au dépôt:
 	
 	```git push```

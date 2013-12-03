@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.27)  3 DEC 2013 10:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.27)  3 DEC 2013 10:58
 entering extended mode
  %&-line parsing enabled.
 **Prés_Chierchia_0513.tex
@@ -818,43 +818,43 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 32.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./Prés_Chierchia_0513.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10.95> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 7.
 
 (/usr/share/texmf-texlive/tex/latex/stmaryrd/Ustmry.fd))
 \tf@toc=\write3
@@ -862,13 +862,13 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 202.
+(Font)              <9> on input line 207.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 202.
- [4] [5]
-Overfull \hbox (5.34164pt too wide) in paragraph at lines 314--317
+(Font)              <5> on input line 207.
+ [5]
+Overfull \hbox (5.34164pt too wide) in paragraph at lines 319--322
 \T1/lmr/m/n/10.95 Zwarts(1996)'s ge-ne-rea-li-za-tion : Strong NPIs can only ap
 -pear in Anti-additive (hen-ce-forth AA) contexts. 
  []
@@ -876,10 +876,10 @@ Overfull \hbox (5.34164pt too wide) in paragraph at lines 314--317
 [6] [7] [8] (./Prés_Chierchia_0513.bbl [9]) [10] (./Prés_Chierchia_0513.aux) 
 ) 
 Here is how much of TeX's memory you used:
- 5341 strings out of 493882
- 68033 string characters out of 1154506
+ 5343 strings out of 493882
+ 68056 string characters out of 1154506
  137926 words of memory out of 3000000
- 8471 multiletter control sequences out of 15000+50000
+ 8473 multiletter control sequences out of 15000+50000
  95123 words of font info for 70 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  30i,5n,32p,826b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -902,7 +902,7 @@ public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb></usr/share/texmf-texlive/fonts/type1/hoekwater/stmaryrd/stmary10.pfb>
-Output written on Prés_Chierchia_0513.pdf (10 pages, 406151 bytes).
+Output written on Prés_Chierchia_0513.pdf (10 pages, 407163 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

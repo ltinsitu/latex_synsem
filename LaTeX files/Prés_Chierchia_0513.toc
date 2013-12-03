@@ -1,25 +1,27 @@
 \select@language {french}
 \contentsline {section}{Introduction}{1}
 \contentsline {section}{\numberline {1}Summary of the first presentation}{1}
-\contentsline {section}{\numberline {2}The last components of Chierchia's system}{1}
-\contentsline {subsection}{\numberline {2.1}The syntax of exhaustification:}{1}
+\contentsline {section}{\numberline {2}This is a test section}{2}
+\contentsline {section}{\numberline {3}Summary of the first presentation}{2}
+\contentsline {section}{\numberline {4}The last components of Chierchia's system}{2}
+\contentsline {subsection}{\numberline {4.1}The syntax of exhaustification:}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
-\contentsline {subsection}{\numberline {2.2}Grammaticality and (un)formativity}{3}
+\contentsline {subsection}{\numberline {4.2}Grammaticality and (un)formativity}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {3}The Derivation of NPIs}{4}
-\contentsline {subsection}{\numberline {3.1}NPIs and Indefinites}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {3.2}Derivation of NPI \textit {any}}{5}
+\contentsline {section}{\numberline {5}The Derivation of NPIs}{4}
+\contentsline {subsection}{\numberline {5.1}NPIs and Indefinites}{4}
 \contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {5.2}Derivation of NPI \textit {any}}{5}
 \contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{6}
 \contentsline {paragraph}{Why \emph {any} cannot appear in UE contexts}{6}
-\contentsline {section}{\numberline {4}Weak vs. Strong NPIs}{6}
+\contentsline {section}{\numberline {6}Weak vs. Strong NPIs}{6}
 \contentsline {paragraph}{}{7}
-\contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{8}
+\contentsline {section}{\numberline {7}The Free Choice uses of disjunction}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{9}
 \contentsline {section}{Conclusion}{9}

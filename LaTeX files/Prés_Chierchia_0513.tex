@@ -2,12 +2,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
-\usepackage[english,francais]{babel}
+\usepackage[francais, english]{babel}
 \usepackage[margin=2cm]{geometry}
 \usepackage{natbib}
 \usepackage{array}
 \usepackage{amssymb}
 \usepackage{longtable}
+\usepackage{booktabs}
 \usepackage{gb4e}
 \usepackage{qtree}
 \usepackage{csquotes}
@@ -38,9 +39,74 @@
 
 
 \section{Summary of the first presentation}
+\subsection{DE vs. UE contexts}
+  \exs[\label{subset}Subsets/Supersets:]{
+    \ex Every time I ate pizza, I got sick $\rightarrow$ Every time I ate pepperoni pizza, I got sick
+    \ex\label{negsent} I didn't eat pizza $\rightarrow$ I didn't eat pepperoni pizza \\ $\Rightarrow$ \emph{subset inferences}
+  }
+  %   
+  \exs[\label{supset}]{
+    \ex Every time at lunch I ate pepperoni pizza $\rightarrow$ Every time at lunch I ate pizza
+    \ex\label{possent} I eat pepperoni pizza $\rightarrow$ I eat pizza \\ $\Rightarrow$ \emph{superset inferences}
+  }
+  %
+Contexts which license subset inferences are called \emph{Downward Entailing}, contexts which license superset inferences are called \emph{Upward Entailing}.
+
+NPIs, which are a type of \emph{Polarity Sensitive Items}, are sensitive to DE contexts. This means that they will always be licensed in a DE context, but never in a UE context. This is the case for NPIs like \emph{ever} (cf. \reff{evernpi}) and \emph{any} (cf. \reff{anynpi}):
+  \exs[\label{evernpi}]{
+    \ex \gll Every [person who \emph{ever} ate pepperoni pizza from that place] [got sick]\\
+    		 Chaque [personne qui \textsc{npi} manger-\textsc{past} pepperoni pizza de cet endroit] [devenir-\textsc{past} malade]\\
+    	\glt \foreignlanguage{francais}{\og{}Chaque personne qui a mangé~--~ne serait-ce qu'une fois~--~une pizza au pepperoni venant de cet endroit est tombée malade.\fg{}}
+    \ex[*]{\gll Every [person who eats my pepperoni pizza] [will \emph{ever} get sick]\\
+    			Chaque [personne qui mange-\textsc{3ps} ma pepperoni pizza] [\textsc{fut} \textsc{npi} devenir malade]\\
+    			}
+    \ex \gll Every [person who eats my pepperoni pizza] [won't \emph{ever} get sick]\\
+    		 Chaque [personne qui mange-\textsc{3ps} ma pepperoni pizza] [\textsc{fut-neg} \textsc{npi} devenir malade]\\
+        \glt \foreignlanguage{francais}{\og{}Chaque personne qui mange ma pizza au pepperoni ne tombera jamais malade.\fg{}}
+  }
+  \exs[\label{anynpi}]{
+    \ex \gll Every [student who still has \emph{any} cookie in the oven] [should {turn it off}]\\
+    		 Chaque [étudiant qui encore a \textsc{npi} cookie dans le four] [devrait {éteindre le}]\\
+    	\glt \foreignlanguage{francais}{\og{}Chaque étudiant qui a encore le moindre cookie dans le four devrait l'éteindre.\fg{}}
+    \ex[*]{\gll Every [student who has cooking skills] [still has \emph{any} cookie in the oven]\\
+    	   		Chaque [étudiant qui a cuisine talents] [encore a \textsc{npi} cookie dans le four]\\}    
+    \ex \gll Every [student who has cooking skills] [won't buy \emph{any} cookie from that place]\\
+    		 Chaque [étudiant qui a cuisine talents] [\textsc{fut-neg} acheter \textsc{npi} cookie de cet endroit]\\
+        \glt \foreignlanguage{francais}{\og{}Chaque étudiant qui a des talents de cuisinier n'achèterait pas le moindre cookie dans ce magasin.\fg{}}
+  }
+  
+  
+\subsection{Scalar Implicatures}
+Recall that SIs don't behave the same when they are situated in a UE and in a DE context.
+
+\begin{itemize}
+  \item Adding a SI to a sentence embedded within a UE context leads to something stronger than the original, hence is more informative.
+  \item Adding a SI to a sentence embedded within a DE context leads to something weaker than the original, hence is less informative.
+\end{itemize}
+  
+
+\begin{description}
+  \item[Maximize Strength:] Don't add an implicature if it leads to weakening, unless you are forced to by the context.
+\end{description}
+
+\paragraph{}
+Chierchia finds a distinction between the distribution of SIs and that of NPIs. SIs are OK in UE contexts, but not in DE contexts, whereas NPIs are OK in DE contexts, but not in UE contexts. The meaning of these Polarity Sensitive items must prevent them to be embedded in UE contexts because it would make the interpretation of the sentence less informative. It is then the exact opposite of what happens with SIs.
 
 
-\section{The last components of Chierchia's system}
+\subsection{Extended Standard Grice Theory and properties of SIs}
+The \emph{ESG} theory proposed by Chierchia can be stated as follows:
+
+\exs[\label{esg} \textbf{Extended Standard Grice:}]{
+\ex\label{esga} At the root level, the Gricean reasoning is extensionally equivalent to exhaustifying the assertion with respect to a set of salient, relevant alternatives.
+%\ex\label{esgb} Ordinary SIs for ordinary scalar terms can be obtained by assuming that their scalemates are relevant.
+\ex\label{esgc} Exhaustification can take place at embedded levels, subject to Maximize Strength.
+}
+
+
+\subsection{Focus and covert \emph{only}}
+
+
+\section{Components of Chierchia's system}
 \subsection{The syntax of exhaustification:}
 
 Recall that SIs come about through a covert operator that is used when lexically (or focus) activated alternatives are relevant to the conversational goals. Chierchia assumes that if the lexically induced alternatives are relevant/active, they must be factored into meaning through covert exhaustification, and vice versa: covert exhaustifiers are employed only when the alternatives of an alternative bearer are relevant.
@@ -193,30 +259,31 @@ So, what is the difference between \emph{any} and \emph{a}? Chierchia claims tha
 \exs[\label{cookiesex}]{
   \ex There aren't \lb{NP,~D}cookies\rb{} left.\\
                        $= \neg \exists{x \in D}~[$cookies$(x)~\wedge~$left$(x)]$\\
-                       There aren't things [\emph{in the usual places in the kitchen}] which are cookies and are left (uneaten)\footnote{In italics and between brackets is indicated what is the contextually relevant domain for the sentence. For example, the contextually relevant domain for \reff{cookiesex} is a set formally described as: \{$x$: $x$ is in the usual places in the relevant kitchen\}}.
+                       There aren't things [\emph{in the usual places in the kitchen}] which are cookies and are left (uneaten)\footnote{In italics and between brackets is indicated what the contextually relevant domain for the sentence is. For example, the contextually relevant domain for \reff{cookiesex} is a set formally described as: \{$x$: $x$ is in the usual places in the relevant kitchen\}}.
   \ex There aren't \lb{DP,~D^{\prime}}any cookies\rb{} left.\\
       $= \neg \exists{x \in D^{\prime}}~[$cookies$(x)~\wedge~$left$(x)]$\\
       There aren't things [\emph{in the usual or unusual places in the kitchen}] which are cookies and are left (uneaten).
   \ex\label{domainsubset} D $\subseteq$ D^{\prime}
 }
 %
-In \reff{cookiesex}, the domains associated with \emph{any} and \emph{a} are not the same: the domain associated with the NPI is \emph{broader} than the domain associated with the indefinite, the set contains more elements. Moreover, every element in the domain of indefinites is also in the domain of NPIs (this is expressed formally in \reff{domainsubset}.
+In \reff{cookiesex}, the domains associated with \emph{any} and \emph{a} are not the same: the domain associated with the NPI is \emph{broader} than the domain associated with the indefinite; the set contains more elements. Moreover, every element in the domain of indefinites is also in the domain of NPIs (this is expressed formally in \reff{domainsubset}.
 
 
 \subsection{Derivation of NPI \textit{any}}
-\textbf{Claim:} \emph{Any} carries an inherent focal feature $F$ (that remains phonologically unrealized) which signals that it is associated with a set of alternatives constrained as follows:
+\subsubsection{The Claim}
+\emph{Any} carries an inherent focal feature $F$ (that remains phonologically unrealized) which signals that it is associated with a set of alternatives constrained as follows:
 
 \begin{exe}
   \ex\label{derivany}
     \begin{xlist}
       \ex\label{derivanya} \eval{There aren't any$_{F,D}$ cookies left.} $= \neg\exists x \in D$ [cookies(x) $\wedge$ left(x)]
-      \ex\label{derivanyb} ALT $=$ \{$\neg\exists x \in D$ [cookies(x) $\wedge$ left(x)]: D'$\subseteq$ D \}
+      \ex\label{derivanyb} ALT $=$ \{$\neg\exists x \in D^\prime$ [cookies(x) $\wedge$ left(x)]: D^\prime$\subseteq$ D \}
       \ex\label{derivanyc} \eval{any_{F,D}} $= \lambda{P}.~\lambda{Q}.~\exists{x} \in D~[P(x)\wedge Q(x)]$
-      \ex\label{derivanyd} \eval{any_{F,D}}^F $=$ \{$\lambda{P}.~\lambda{Q}.~\exists{x} \in D'~[P(x)\wedge Q(x)]:D'\subseteq D$ \}
+      \ex\label{derivanyd} \eval{any_{F,D}}^F $=$ \{$\lambda{P}.~\lambda{Q}.~\exists{x} \in D^\prime~[P(x)\wedge Q(x)]:D'\subseteq D$ \}
     \end{xlist}
 \end{exe}
 %
-This focal feature on \textit{any} is the lexical property that distinguishes it from plain existentials; it states that the alternatives with which a statement involving \textit{any} can be contrasted involve existentials with smaller domains.
+This focal feature on \textit{any} is the lexical property that distinguishes it from plain existentials; it means that the alternatives with which a statement involving \textit{any} can be contrasted involve existentials with smaller domains.
 
 Then, the semantic value for \emph{any} in \reff{derivanyc} (when it does not bear the feature $F$) is equivalent to that of indefinites, and the semantic value of \emph{any} in \reff{derivanyd} (with $F$) is the one we want for this lexical item as a NPI.
 
@@ -236,41 +303,80 @@ Contrastive stress on \emph{any} is a way of spelling out its inherent focal fea
 %
 The domain variable associated with \enquote{\emph{an egg}}, marked as D_1, must range over some subset of the one associated with \enquote{\emph{any egg}}, marked as D_2. \emph{Any} acts as a \enquote{domain widener}.
 
-\paragraph{}
-If \emph{any} always activate alternatives, it must be associated with an alternative sensitive operator, like \emph{O} (silent \emph{only}). The logical form for \reff{anyo} is \reff{anyoLF}:
+\subsubsection{\emph{Any} in DE contexts}
+If \emph{any} always activates alternatives, it must be associated with an alternative sensitive operator, like \emph{O} (silent \emph{only}). The logical form for \reff{anyo} is \reff{anyoLF}:
 
 \exs{
 	\ex\label{anyo} There aren't any_{F,D} cookies left.
 	\ex\label{anyoLF} O_C [There aren't any_{F,D} cookies left]
 }
 %
-This operator \emph{O_C} will not exhaustify alternatives that are entailed by the proposition.
+As we've seen in the previous talk, an operator like \emph{O}_C (or its overt counterpart \enquote{\emph{only}}) exhaustify away alternatives \emph{only if} they are not entailed by the proposition. Recall that the alternatives for \reff{anyo} all come with a domain which is a subset of the domain associated with the NPI:
 
-\paragraph{Why \emph{any} cannot appear in UE contexts}
-\exs{
-	\ex[*]{There are any_D cookies left.}\label{anyue}
-	\ex\label{anyuemeaning} $\exists{x \in D}~[$cookies$(x)~\wedge~$left$(x)]$ \hfill [\emph{$D =$ things in the kitchen}]	
-	\ex\label{anyuealt} \{$\exists{x \in D^{\prime}}~[$cookies$(x)~\wedge~$left$(x)]: D^{\prime} \subset D$\}
-	\ex\label{anyuealtexamples} There are cookies left in the cupboard,\\
-		There are cookies left on the kitchen table,\\
-		There are cookies left in the oven\ldots{}
+\exs[]{
+  \ex\label{anyovalsem} \eval{\reff{anyo}} $= \neg\exists{x \in D}[$cookies$(x) \wedge $left$(x)]$ \hfill [\emph{$D =$ things in the kitchen}]
+  \ex \begin{tabular}[t]{llp{13cm}}\toprule[-12.5pt]
+  		ALT & $=$ & $\{\neg\exists{x \in D^\prime}[$cookies$(x) \wedge $left$(x)]: D^\prime \subseteq D]$\}\\
+  		    & $=$ & \{there are no cookies left in the oven, there are no cookies left on the kitchen table, there are no cookies left in the fridge, \ldots{}\}
+  \end{tabular}  
+}
+%
+As you can see, all the alternatives \emph{are} entailed by the proposition:
+
+\begin{exe}
+\ex There are no cookies left in the kitchen $\rightarrow$ [there are no cookies left in the oven $\wedge$ there are no cookies left on the kitchen table $\wedge$ there are no cookies left in the fridge $\wedge$ \ldots{}]
+\end{exe}
+%
+Hence covert \emph{only} won't exhaustify them away. If there is no exhaustification, the meaning of a sentence like \reff{anyo} is exactly how we put it in \reff{anyovalsem}.
+
+This is the case for every other appearance of \enquote{\emph{any}} in a DE context (as in \reff{anydecontexts}): since DE contexts always license subset inferences, the alternatives will always be entailed by the proposition, then the operator \emph{O}_C will never exhaustify them away.
+
+\exs[\label{anydecontexts}]{
+  \ex Every student who took \emph{any} linguistic class qualifies.
+  \ex Do you have \emph{any} programming skills?
+  \ex If I eat \emph{any} cookie, I will get fat.
 }
 
-When any does not appear in a DE context, but a UE context, the situation is different. If \reff{anyue} was grammatical, it would be similar to a sentence with a plain existential, and its meaning would be \reff{anyuemeaning}. However, the meaning of \emph{any} forces it to activate alternatives in \reff{anyuealt}~--~some examples of these alternatives are in \reff{anyuealtexamples} (with respect to the domain defined in \reff{anyuemeaning}).
+
+\subsubsection{Why \emph{any} cannot appear in UE contexts}
+Now, let's turn to why NPIs like \enquote{\emph{any}} cannot appear in UE contexts. In this case, the situation is different. If a sentence like \reff{anyue} were grammatical, it would be similar to a sentence with a plain existential, and its meaning would be \reff{anyuemeaning}.
 
 \exs{
-	\ex\label{anyueo} O_C [There are any_D cookies left] $=$
+	\ex[*]{There are any_D cookies left.}\label{anyue}
+	\ex\label{anyuemeaning} $\exists{x \in D}~[$cookies$(x)~\wedge~$left$(x)]$ \hfill [\emph{$D =$ things in the kitchen}]
+}
+%
+However, the problem is that the meaning of \emph{any} forces it to activate alternatives (represented in \reff{anyuealt}), whose domain is a subset of the domain of the proposition.
+
+\exs[\label{anyuealt}]{	
+	\ex \{$\exists{x \in D^{\prime}}~[$cookies$(x)~\wedge~$left$(x)]: D^{\prime} \subseteq D$\}
+	\ex\label{anyuealtexamples} There are cookies left in the cupboard,\\
+		There are cookies left on the kitchen table,\\
+		There are cookies left in the oven, \ldots{}
+}
+%
+Then, if you look at the logical form of \reff{anyue} (namely, \reff{anyueo}), you'll notice the presence of a covert \enquote{\emph{only}} that will exhaustify away alternatives that are not entailed by the proposition. 
+
+\begin{exe}
+  \ex\label{anyueo} O_C [There are any_D cookies left]
+\end{exe}
+%
+Since every alternative for this sentence is \emph{not} entailed by the proposition (see \reff{altanyueentailment}), all of them will be negated.
+
+\exs{
+	\ex\label{altanyueentailment} There are cookies left in the kitchen $\nrightarrow$ [there are cookies left in the cupboard $\wedge$ there are cookies left on the kitchen table $\wedge$ there are cookies left in the oven $\wedge$ \ldots{}]
+}
+%
+We end up with a meaning for the sentence \enquote{\emph{There are any cookies left}} that is similar to what is expressed in \reff{anyueoalt}.
+
+\begin{exe}
 	\ex\label{anyueoalt} There are cookies left in the kitchen, \textbf{BUT}:\\
 						 There are \emph{no} cookies left in the cupboard, and\\
 						 There are \emph{no} cookies left on the kitchen table, and\\
-						 There are \emph{no} cookies left in the oven\ldots{}
-}
+						 There are \emph{no} cookies left in the oven, \ldots{}
+\end{exe}
 %
-Then, we have to exhaustify with a silent \emph{only} (as in \reff{anyueo}, the LF of \reff{anyue}), and eliminate all alternatives not entailed by the assertion. This is the case for every alternative in \reff{anyuealt}, so we have to eliminate all of them (as in \reff{anyueoalt}).
-
-Finally, we obtain the interpretation for sentence \reff{anyue}. This sentence means that there are cookies left in the relevant domain (here the kitchen), but that there are no cookies left for every subdomain of the kitchen (no cookies in the cupboard, no cookies on the kitchen table, no cookies in the oven\ldots{}).
-
-$\Rightarrow$ This is clearly a \emph{contradiction}, and that's why NPI \enquote{\emph{any}} \emph{cannot} appear in UE contexts.
+This sentence means that there are cookies left in the relevant domain (here the kitchen), but that there are no cookies left for every subdomain of the kitchen (no cookies in the cupboard, no cookies on the kitchen table, no cookies in the oven\ldots{}). This is clearly a contradiction, and that's why NPI \enquote{\emph{any}} \emph{cannot} appear in UE contexts.
 
 %~ \begin{figure}[!h]
   %~ \centering

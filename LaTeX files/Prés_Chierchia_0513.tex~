@@ -37,9 +37,7 @@
 \addcontentsline{toc}{section}{Introduction}
 
 
-
 \section{Summary of the first presentation}
-
 
 
 \section{The last components of Chierchia's system}
@@ -511,7 +509,7 @@ Notice that the exhaustification of $\diamond$\verb![!p$\wedge$q\verb!]! is vacu
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
- Une nouvelle conclusion!! 
+
  
 \bibliography{synsemchierchia}
 \bibliographystyle{apalike}

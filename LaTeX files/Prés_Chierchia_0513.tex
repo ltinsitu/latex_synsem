@@ -298,7 +298,7 @@ Recall that NPIs such as \textit{any} and \textit{ever} are always licensed in D
 \ex\label{wkstr} \begin{xlist}
 \ex\label{wkstr1} \begin{xlist}
 \ex\label{wkstr1a} John didn't see Mary \textbf{in weeks}. 
-\ex\label{wkstr1b} John didn't \textbf{ever} see Mary. ???
+\ex\label{wkstr1b} John didn't \textbf{ever} see Mary. 
 \end{xlist}
 \ex\label{wkstr2} \begin{xlist}
 \ex\label{wkstr2a} *If John has seen Mary \textbf{in weeks}, he will be upset.
@@ -324,7 +324,7 @@ Being AA is stronger than being DE: every AA item is also DE, whereas many DE it
 \\$\Rightarrow$ The quantifier \textit{at most} is only a DE item.
 \end{xlist}
 \end{exe}
-Three issues ...:
+Three issues related to Zwarts's generalization inside Chierchia's system:
 \begin{enumerate}
 \item The property of being AA doesn't describe accurately the contexts that license strong NPIs; there are few cases in which AA seems not to be descriptively adequate.
 \begin{exe}
@@ -390,10 +390,71 @@ Illustration with the strong NPI \textit{in weeks}:
 Notice that as the alternatives of the form (\reff{altiwb}) entail (\reff{inwiksb}), if we fulfill the usual exhaustification, we would expect \textit{in weeks} to behave as weak NPIs. However, recall that \textit{in weeks} need to be exhaustified with respect to the presuppositions and the implicatures of its environment.
 \begin{enumerate}
 \item Role of presuppositions: 
+To introduce, the $\pi$ operator indicates that a proposition is spliting into its content component \up{$\alpha$}p and its presuppositional component \up{$\pi$}p, as the following example shows.
+\begin{exe}
+\ex\label{pi} $\pi$(only John said something in weeks)=John said something in weeks $\wedge\forall$ x[x said somthing in weeks $\rightarrow$ x=John] 
+\end{exe}
+Claim: Strong NPIs occuring in a proposition p are exhaustified relative to $\pi(p)$. If the NPI occurs in a non-DE context in $\pi(p)$, the result of exhaustification will be G-trivial, as the following example shows:
+\begin{exe}
+\ex\label{pialt} O\up{s}_{ALT}(only John said something in weeks_{+D})=only John said something in weeks $\wedge$ $\forall p\in$ ALT[$\pi$(p) $\rightarrow$ $\pi$(only John said something in weeks) $\subseteq \pi$(p)]
+\end{exe}
+To follow, the presupposition-enriched assertion with its alternative:
+\begin{exe}
+\ex\label{presupalt} John said something in weeks  $\wedge\forall$ x[x said something in weeks $\rightarrow$ x=John]
+\\$\Uparrow\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow$ 
+John said something in D $\wedge\forall$ x[x said something in D $\rightarrow$ x=John]
+\\where D$\subset$WEEKS 
+\end{exe}
+None of the alernatives to the enriched assertion is entailed by it. Therefore, they must all be false (when exhaustification). But this is in contradiction with the assertion $\rightarrow$ \reff{pialt} is G-trivial.
+\\This account extends to all proppositional triggers(left argument of \textit{every}, conditionals, factives like \textit{be sorry}, \textit{regret}. accouting thus for their failur to license strong NPIs.
+Conversely, a sentence such as \textit{John didn't see Mary in weeks.} has no relevant presupposition. Hence exhaustification of \textit{John didn't see Mary in weeks} presents no problem and the sentence will be ruled in. 
+$\Rightarrow$ Contrast between Strong vs. Weak NPIs:
+\begin{exe}
+\ex \begin{xlist}
+\ex\label{strexh} Strong exhaustification:
+\\O\up{S}_{ALT}[$\Phi_w$]=$\Phi_w \wedge\forall p\in $ALT [$\pi$(p)_w $\rightarrow \pi$($\lambda w \Phi_w$) $\subseteq \pi$(p)]
+\ex\label Weak exhaustification:
+\\O\up{W}_{ALT}($\Phi_w$)=$\Phi_w \wedge\forall p\in$ ALT [\up{$\alpha$}p_w $\rightarrow$ \up{$\alpha$}$\lambda w \Phi_w \subseteq$ \up{$\alpha$}p]
+\end{xlist}
+\end{exe}
 \item Role of implicatures:
+Recall (?) that each scalar element, such as \textit{few}, has both $\sigma$- and D-alternatives. Consider the sentence in (\ref{fewinwa}) and its total set of alternatives.
+\begin{exe}
+\ex\label{fewinw} \begin{xlist}
+\ex\label{fewinwa} Few people saw Mary in weeks.
+\ex\label{fewinwb} NO_D in W $\Rightarrow$ FEW_D in W $\Rightarrow$ NOT ALL_D in W 
+\\ $\Downarrow\ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow$ 
+\\NO_{D'} in W $\Rightarrow$ FEW_{D'} in W $\Rightarrow$ NOT ALL_{D'} in W 
+\ex\label{fewinwc} O_{ALT}(few_{+D} people saw Mary in weeks_{+D})=few_{D} people saw Mary in weeks $\wedge\neg$NO_{D'} in W' (for any D', W') = few_D people saw Mary in weeks $\wedge$ some_{D'} people saw Mary in W' (for any D', W')
+\ex\label{fewinwd} O_{ALT} (no_{+D} people saw MAry in weeks_{+D})= ...
+\end{xlist}
+\end{exe}
+Rows: $\sigma$-alternatives, the columns D-alternatives (dont celle activ\'ee par \textit{in weeks}.
+\\Exhaustification in \reff{fewinwc}: The whole first column is entailed by the assertion. Therefore, the result, that in any D',W' (including the smallest ones) there have to be people in D' that saw Mary in W', which contradicts the assertion. $\rightarrow$ G-trivial
+Conversely, the exhaustification in \reff{fewinwd}: the sentencce entails everything, therefore the exhaustification is vacuous and the sentence is grammatical.
+
 \end{enumerate}
 
-
+$\Rightarrow$ Strong NPIs must be exhaustified by considering the total ALT of scalar and domain alternatives.
+\\Strong NPIs carry a feature that can be checked only by O_{ALT}, i.e. an exhaustification whose restriction includes the whole set ALT of grammticaly determined alternatives.
+\\Difference between strong and weak NPIs.
+\begin{exe}
+\ex\label{npifeat} \begin{xlist}
+\ex\label{npifeat1} \begin{xlist}
+\ex\label{npifeat1a} $O_{\sigma A}$ O_{DA} [$Few_{[+\sigma, +D]}$ people saw $any_{[+\sigma,+D]}$ movies recently]
+\ex\label{npifeat1b} \# O_{ALT} [$Few_{[+\sigma, +D]}$ people saw Mary $in\ weeks_{[+\sigma,+D]}$]
+\end{xlist}
+\ex\label{npifeat2} \begin{xlist}
+\ex\label{npifeat2a} $O_{\sigma A}$ O_{DA} [$No_{[+\sigma, +D]}$ people saw $any_{[+\sigma,+D]}$ movies recently]
+\ex\label{npifeat2b} \# O_{ALT} [$No_{[+\sigma, +D]}$ people saw Mary $in\ weeks_{[+\sigma,+D]}$]
+\end{xlist}
+\end{xlist}
+\end{exe}
+Weak NPI allow separate exhaustification of D- and $\sigma$-alternatives. In \reff{npifeat1a} and \reff{npifeat2a} we first exhaustify relative to the D-alternatives.
+The result is fine because when this occurs the prejacent is DE with respect to the position of the NPI. Then the scalar implicature is added. Strong NPIs do not have
+this option: O_{ALT} must be used, which activates the relevant feature on any intervening XP. This forces exhaustification of both $\sigma$- and D-alernatives, which
+only works with end-of scale XPs. We assume furthermore, that O_{ALT} always factors in presuppositions as in \reff{strexh}: thus, O\up{S}_{ALT}=O_{ALT} and 
+O\up{W}_{ALT}=$O_{\sigma A}/O_{DA}$. The former looks at presupposition+assertion while the latter just at the assertive component.
 \section{The Free Choice uses of disjunction}
 
 % Moreover, Chierchia assumes Multiple Agree: the operator can target a series of unvalued features in its c-command domain.
@@ -415,31 +476,32 @@ Notice that as the alternatives of the form (\reff{altiwb}) entail (\reff{inwiks
 
 The following sentence has two salient readings, \reff{fcdisj0a} and \reff{fcdisj0b}:
 \begin{exe}
-\ex\label{fcdisj0} You may take ice cream or cake. $\diamond$\verb![!p$\vee$q\verb!]! where p=you may take ice cream and q=you may take cake\begin{xlist}
+\ex\label{fcdisj0} You may take ice cream or cake. $\diamond$\verb![!p$\vee$q\verb!]! \\where p=you may take ice cream and q=you may take cake\begin{xlist}
 \ex\label{fcdisj0a} You are allowed to take ice cream and you are allowed to take cake. $\diamond p\wedge\diamond q$
 \ex\label{fcdisj0b} You are allowed to take ice cream and you are also allowed to take cake but you are not allowed to take them both. $\diamond p\wedge\diamond q\wedge\neg \diamond$\verb![!p$\wedge$q\verb!]!
 \end{xlist}
 \end{exe}
-In each interpretation, \textit{or} conveys \textit{and}: each disjunction is understood as an admissible way of respecting the permission.
-This phenomenon, well-known as \textit{FC effect}, occurs in this sentence, because a modal element takes scope over disjunction\footnote{Notice that this phenomenon can also take place when disjunction occurs under modals of necessity:
+In each interpretation, \textit{or} conveys \textit{and}: each disjunct is understood as an admissible way of respecting the permission.
+This phenomenon, well-known as \textit{FC effect}, occurs in this sentence, because a modal element takes scope over disjunction\footnote{Notice that this phenomenon can also take place when disjunction occurs under modals of necessity (\reff{fcmodneca} is understoof as \reff{fcmodnecb}):
 \begin{exe}
 \ex\label{fcmodnec} \begin{xlist} 
 \ex\label{fcmodneca} For this class, you must write a paper or run an experiment. $\square$ \verb![!p$\vee$q\verb!]! 
 \ex\label{fcmodnecb} For this class, you are allowed to write a paper and you are allowed to run an experiment.  $\diamond p\wedge\diamond q$
 \end{xlist}
-\end{exe}}
-\\The same phenomenon occurs in the following sentence: \reff{fcany0} is interpreted as saying that each cake is an admissible way of respecting the permission (interpretation in \reff{fcany0b}):
+\end{exe}}.
+\\The same phenomenon occurs in the following sentence, containing the NPI \textit{any}: \reff{fcany0} is interpreted as saying that each cake is an admissible way of respecting the permission (interpretation in \reff{fcany0b}).
 \begin{exe}
 \ex\label{fcany0}  You may take any cake. \begin{xlist}
-\ex\label{fcany0a} $\diamond$\verb![!a_1$\vee$a_2$\vee$a_3$\vee$...\verb!]!
-\ex\label{fcany0b} $\diamond a_1\wedge\diamond a_2\wedge\diamond a_3\wedge...$
+\ex\label{fcany0a} $\diamond$\verb![!c_1$\vee$c_2$\vee$c_3$\vee$...\verb!]!
+\\You are allowed to take cake 1 or cake 2 or cake 3...
+\ex\label{fcany0b} $\diamond c_1\wedge\diamond c_2\wedge\diamond c_3\wedge...$
+\\You are allowed to take cake 1 and you are allowed to take cake 2 and you are allowed to take cake 3...
 \end{xlist}
 \end{exe}
 $\Rightarrow$  Signature property of the FC effect:
 \begin{exe}
 \ex\label{fc} $\diamond$\verb![!a_1$\vee$a_2$\vee$a_3$\vee$...\verb!]! $\Rightarrow $ $\diamond a_1\wedge\diamond a_2\wedge\diamond a_3\wedge...$
 \end{exe}
-
 \paragraph{}
 It is important to notice that the FC effect tends to disappear under negation (and in any DE contexts):
 \begin{exe}
@@ -448,8 +510,9 @@ It is important to notice that the FC effect tends to disappear under negation (
 \ex\label{fcnegb} $\neg$\verb![!$\diamond p\wedge\diamond q$\verb!]!
 \end{xlist}
 \end{exe}
-\reff{fcneg} is interpreted as \reff{fcnega} and not as \reff{fcnegb}, which is the expected interpretation with a FC effect. However, this interpretation, \textit{It is not the case that you are both allowed to have ice cream and allowed to have cake} is weaker than the interpretation in \reff{fcnega}. is not weaker. Therefore, \reff{fcneg} isn't interpreted with a FC effect.
-$\Rightarrow$ We can observe a parallel between the distribution of SIs, which are harder to process in DE contexts and the FC effect, which tends to disappear in these contexts, suggesting that the FC effect is an implicature of sort.
+\reff{fcneg} is interpreted as \reff{fcnega} and not as \reff{fcnegb}, which is the expected interpretation with a FC effect. 
+\\Nevertheless, notice that this interpretation, \textit{It is not the case that you are both allowed to have ice cream and allowed to have cake}, is weaker than the interpretation in \reff{fcnega}.
+\\$\Rightarrow$ We can observe a parallel between the distribution of SIs, which are hard to process in DE contexts and the FC effect, which tends to disappear in these contexts. This suggests that the FC effect is an implicature of sort.
 \paragraph{}
 Going back to the example \reff{fcdisj0}, we will discuss how FC disjunction is derived.
 
@@ -470,10 +533,10 @@ If we exhaustify the assertion with respect to this set of alternatives, we get 
 \ex\label{fccontr} O_c($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge$ $\neg\diamond$p $\wedge$ $\neg\diamond$q $\wedge$ $\neg\diamond$\verb![!p$\wedge$q\verb!]!
 \end{exe}
 Nevertheless, the alternatives against which the assertion (\ref{fcdisja}) is assessed are not exactly those in (\ref{fcdisjb}).
-To illustrate, if you ask someone informed, which of the propositions in (\ref{fcdisjb}) are true, you would interpret his answer exhaustively.
+To illustrate, if you ask someone informed, which of the propositions in (\ref{fcdisjb}) is true, you would interpret his answer exhaustively.
 \begin{exe}
 \ex\label{questalt} \begin{xlist}
-\ex\label{questalta} A: Which of the propositions in (\ref{fcdisjb}) is tru? $\Leftrightarrow$ What are you allowed to eat fro the set \{the cake, the ice cream\}?
+\ex\label{questalta} A: Which of the propositions in (\ref{fcdisjb}) is true? $\Leftrightarrow$ What are you allowed to eat from the set \{the cake, the ice cream\}?
 \ex\label{questaltb} B: You are allowed to eat the ice cream. $\Leftrightarrow$ $\diamond$p
 \end{xlist}
 \end{exe}
@@ -497,7 +560,7 @@ Notice that the exhaustification of $\diamond$\verb![!p$\wedge$q\verb!]! is vacu
 \ex\label{derivfcbb} $\neg$O_{ALT}$\diamond$q=$\neg$\verb![!$\diamond$q$\wedge\neg\diamond$p\verb!]!=\verb![!$\diamond$q$\rightarrow\diamond$p\verb!]!
 \ex\label{derivfcbc} $\neg$O_{ALT}$\diamond$\verb![!p$\wedge$q\verb!]!=$\neg\diamond$\verb![!p$\wedge$q\verb!]!
 \end{xlist}
-\ex\label{derivfcc} O_{Exh-ALT}($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge$\verb![!$\diamond$p$\rightarrow\diamond$q\verb!]!$\wedge$O\verb![!$\diamond$q$\rightarrow\diamond$p\verb!]!$\wedge\neg\diamond$\verb![!p$\wedge$q\verb!]!
+\ex\label{derivfcc} O_{Exh-ALT}($\diamond$\verb![!p$\vee$q\verb!]!)=$\diamond$\verb![!p$\vee$q\verb!]!$\wedge$\verb![!$\diamond$p$\rightarrow\diamond$q\verb!]!$\wedge$\verb![!$\diamond$q$\rightarrow\diamond$p\verb!]!$\wedge\neg\diamond$\verb![!p$\wedge$q\verb!]!
 \end{xlist}
 \end{exe}
 \reff{derivfcc} says that one of $\diamond$p or $\diamond$q is true and, if one of the two is true, the other also must be true, which is equivalent to $\diamond p\wedge\diamond q\wedge \neg\diamond$\verb![!p$\wedge$q\verb!]!.

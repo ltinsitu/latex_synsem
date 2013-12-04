@@ -19,7 +19,7 @@
 \contentsline {paragraph}{Why \emph {any} cannot appear in UE contexts}{5}
 \contentsline {section}{\numberline {4}Weak vs. Strong NPIs}{6}
 \contentsline {paragraph}{}{7}
-\contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{8}
-\contentsline {paragraph}{}{8}
-\contentsline {paragraph}{}{8}
-\contentsline {section}{Conclusion}{9}
+\contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{10}
+\contentsline {section}{Conclusion}{10}

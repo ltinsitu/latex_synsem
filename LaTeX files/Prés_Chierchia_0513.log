@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.27)  4 DEC 2013 15:05
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.12)  4 DEC 2013 11:10
->>>>>>> 5f88fc264be70a7ea8f3a40605470f2843df98fa
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.12)  4 DEC 2013 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,11 +894,11 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 201.
+(Font)              <9> on input line 203.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 201.
+(Font)              <5> on input line 203.
  [4] [5]
-Overfull \hbox (5.34164pt too wide) in paragraph at lines 313--316
+Overfull \hbox (5.34164pt too wide) in paragraph at lines 315--318
 \T1/lmr/m/n/10.95 Zwarts(1996)'s ge-ne-rea-li-za-tion : Strong NPIs can only ap
 -pear in Anti-additive (hen-ce-forth AA) contexts. 
  []
@@ -910,15 +906,6 @@ Overfull \hbox (5.34164pt too wide) in paragraph at lines 313--316
 [6] [7] [8] (./Prés_Chierchia_0513.bbl [9]) [10] (./Prés_Chierchia_0513.aux) 
 ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5343 strings out of 493882
- 68056 string characters out of 1154506
- 137926 words of memory out of 3000000
- 8473 multiletter control sequences out of 15000+50000
- 95123 words of font info for 70 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 30i,5n,32p,826b,380s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
  5821 strings out of 493485
  75443 string characters out of 3143526
  151419 words of memory out of 3000000
@@ -926,7 +913,6 @@ Here is how much of TeX's memory you used:
  74023 words of font info for 65 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  30i,5n,32p,830b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> 5f88fc264be70a7ea8f3a40605470f2843df98fa
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
 /dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/
 texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/
@@ -936,19 +922,6 @@ c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/s
-<<<<<<< HEAD
-hare/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmtt9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb></usr/share/texmf-texlive/fonts/type1/hoekwater/stmaryrd/stmary10.pfb>
-Output written on Prés_Chierchia_0513.pdf (10 pages, 406303 bytes).
-=======
 hare/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
@@ -960,7 +933,6 @@ are/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/stmaryrd/stmary10.pfb>
 Output written on Prés_Chierchia_0513.pdf (10 pages, 375784 bytes).
->>>>>>> 5f88fc264be70a7ea8f3a40605470f2843df98fa
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams

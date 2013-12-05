@@ -223,55 +223,26 @@ We will now illustrate how this works for some sentences.
 \\\reff{oagreed} is syntactically ill-formed because $O_{\sigma A}$  must assign value "+" to the feature $\sigma$.
 
 \subsection{Grammaticality and (un)formativity}
+Chierchia notices that there exists a difference in the agrammaticality between the sentence in \reff{grama} and the one in \reff{gramb}.
 
-A sentence like \reff{grama} where a NPI appears in a non-DE context is contradictory. It thus should have the same status as the sentence in \reff{gramb}.
  \begin{exe}
- \ex\label{gram} \begin{xlist}
- \ex\label{grama} *There are any cookies left.
- \ex\label{gramb} Right now, it is raining and it is not raining.
- \end{xlist}
+ 	\ex\label{gram}
+ 		\begin{xlist}
+ 		\ex\label{grama} *There are any cookies left.
+ 		\ex\label{gramb} Right now, it is raining and it is not raining.
+ 		\end{xlist}
  \end{exe}
- However, the deviance of (\ref{grama}) is perceived differently from that of (\ref{gramb}): (\ref{grama}) is perceived as grammaticaly deviant whereas (\ref{gramb}) is not perceived as such; it is a sentence that taken literally cannot be true. How can we explain that?
- \paragraph{}
- Key concept belonging to the historical debate on analyticity \citep{Car34,Qui60}: 
- \begin{exe}
- \ex \textbf{L-analiticity:} A sentence is logically true or false iff its truth (or, respectively, falsehood) depends solely on `logical' words, and the way they are put together in a sentence. 
- \end{exe}
- For example, a contradiction of the form $p\wedge \neg p$ is L-analytic because its falsehood depends on the meaning of $\wedge$ and $\neg$ and how they are put together, regardless the meaning of p.
- \\\textbf{Claim:} L-analyticity plays a fundamental role in the semantics of natural language, once we see how to separate expressions that are L-analytic just because of the role played by grammatical formatives from other tautologies.
- \paragraph{}
- Grammar-internal contradictions vs. non-grammar internal contradictions:
- \\The distinction between the functional skeleton of the clause and its lexical material is central to the definition of L-trivitality.
- \\Consider the following examples, for which we have the same perception as in (\ref{gram}):
- \begin{exe}
- \ex\label{gram1} \begin{xlist}
- \ex\label{gram1a} *Some student but John smokes.
- \ex\label{gram1b} John smokes and doesn't smoke.
- \end{xlist}
- \end{exe}
- While (\ref{gram1a}) is perceived as grammaticaly deviant, (\ref{gram1b}) is not perceived as such.
- \begin{exe}
+ 
+\begin{exe}
+\ex\label{taut} \textbf{Tautologies/Contradictions (L-triviality):} A sentence $\Phi$ is tautologous/contradictory iff for any situation s and model M, \eval{$\Phi$'}^{M,s}=1/0 where $\Phi$' is obtained from $\Phi$ by a uniform\footnote{A substitution is uniform if distinct occurrences of an item v are replaced by the same item v'.} substitution of its lexical terminal nodes.
+\end{exe}
+
+\begin{exe}
  \ex\label{gtri} \textbf{G-triviality:} A  sentence $\Phi$ is G-trivial iff for any situation s and model M, \eval{$\Phi$'}^{M,s}= same (where same is either 1 or 0) and $\Phi$' is obtained by an arbitrary substitution of its lexical terminal nodes.
- \end{exe}
- $\rightarrow$ A sentence is defined as G-trivial if it is true or false, regardless of how the lexical terminals are replaced in the structure; G-trivial sentences are only based on the functional lexicon.
- \\Going back to the examples in (\ref{gram1}):
- \begin{itemize}
- \item (\ref{gram1a}) is G-trivial: \verb![!some P but x Q\verb!]! is contradictory no matter how we substitute P and Q in it.
- \item But (\ref{gram1b}) is not G-trivial: there are substitutions of P in \verb![! x P and not P\verb!]! that do not give rise to a contradiction (for example, if we substitute the two occurrences of P with distinct lexical items).
- \end{itemize}
- \begin{exe}
- \ex\label{taut} \textbf{Tautologies/Contradictions (L-triviality):} A sentence $\Phi$ is tautologous/contradictory iff for any situation s and model M, \eval{$\Phi$'}^{M,s}=1/0 where $\Phi$' is obtained from $\Phi$ by a uniform\footnote{A substitution is uniform if distinct occurrences of an item v are replaced by the same item v'.} substitution of its lexical terminal nodes.
- \end{exe}
- $\rightarrow$ L-trivial sentences are based on the functional lexicon and whether occurences of lexical materials are the same or different.
- \\We can thus conclude that (\ref{gram1b}) is L-trivial: with a uniform substitution of P in \verb![! x P and not P\verb!]!, this sentence is contradictory.
- \paragraph{}
- The distinction between G-triviality and L-triviality can explain the different perceptions we had for the sentences in \reff{gram}:
- \begin{itemize}
- \item \textit{There are any cookies left.} (\reff{grama}) is perceived as grammaticaly deviant because it is G-trivial (and L-trivial): the fact that it is contradictory is only based on the functional lexicon. 
- \\$\rightarrow$ Grammar-internal contradiction. 
- \item \textit{Right now, it is raining and it is not raining.} (\reff{gramb}) is not perceived as grammaticaly deviant because it is L-trivial, and not G-trivial: the fact that it is contradictory is based on the functional lexicon and whether occurrences of lexical materials are the same or different.  
- \\$\rightarrow$ Non-grammar internal contradiction. 
- \end{itemize}
+\end{exe}
+
+He says that the sentence in \reff{gramb} is \emph{L-trivial}, whereas the one in \reff{grama} is both \emph{L-trivial} and \emph{G-trivial}.
+
 
 \section{Analyse of NPIs}
 
@@ -459,10 +430,8 @@ There is no language which has a word combining a NPI like \enquote{\emph{any}} 
 
 From this observation, Chierchia finds a strong generalization: \emph{NPIs are indefinites}.
 
-\subsection{Informal explanation}
-
-\subsection{Formal explanation}
-First, let's see what happens with an indefinites in a UE context.
+\paragraph{Formal explanation:}~\\
+First, let's see what happens with an indefinite in a UE context.
 
 \exs{
   \ex\label{readsome} John read some books.
@@ -498,7 +467,77 @@ If you look at this same sentence under negation (DE context), you'll see that t
 %
 Since the proposition entails every alternative, exhaustification cannot take place and the sentence with negation is grammatical.
 
-Now, let's try to make up some new NPI, containing lexical information and morphology of the quantifier \enquote{\emph{many}}. This would lead
+\paragraph{}
+Now, let's try to make up some new NPI, containing lexical information and morphology of the quantifier \enquote{\emph{many}}. This would lead to a contradiction, no matter if it appears in a UE or a DE context.
+
+\exs{
+  \ex\label{readmany} John read many_{\textsc{npi}} books.
+  \ex
+    \begin{xlist}
+      \ex\label{readmanyo} O_{\textsc{alt}} [John read many_{\textsc{npi}}$_{[+\sigma,+D]}$ books]
+      \ex O_{\textsc{alt}} $($Many ${x \in D}[B(x) \wedge R(x)])$
+    \end{xlist}
+  \ex\label{readmanyalt} $\sigma$--\textsc{alt} and D--\textsc{alt}
+    \begin{xlist}
+      \ex $\exists{x \in D}[B(x) \wedge R(x)]~\longleftarrow~$\textbf{Many}$\boldsymbol{~{x \in D}[B(x) \wedge R(x)]}~\longleftarrow~\forall{x \in D}[B(x) \rightarrow R(x)]$\\
+      \indent~~~~~~~~~~~~~$\uparrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\uparrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\downarrow$
+      \ex $\exists{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longleftarrow~~~$Many$~{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longleftarrow~~~\forall{x \in D^{\prime}}[B(x) \rightarrow R(x)]$
+    \end{xlist}
+}
+%
+Why it can't appear in a UE context? Since only one alternative is entailed by the proposition expressed in \reff{readmany} (namely, the existential for the domain), every other alternative is exhaustified. This means that we'll end up saying something like \enquote{\emph{John read many books that were in the leaving room, but he didn't read the books that were on the table, and he didn't read the books that were on the sofa, \ldots{}}} (and so on for every elements of the subdomain). This is the same problem we had when we tried to derive NPIs in a UE context.
+
+Now, let's look at this very same new NPI within a DE context:
+\exs[\label{readmanyneg}]{
+  \ex John didn't read many_{\textsc{npi}} books.
+  \ex
+    \begin{xlist}
+      \ex\label{readmanyoneg} O_{\textsc{alt}} [John didn't read many_{\textsc{npi}}$_{[+\sigma,+D]}$ books]
+      \ex O_{\textsc{alt}} $(\neg$ Many ${x \in D}[B(x) \wedge R(x)])$
+    \end{xlist}
+  \ex\label{readmanyaltneg} $\sigma$--\textsc{alt} and D--\textsc{alt}
+    \begin{xlist}
+      \ex $\neg \exists{x \in D}[B(x) \wedge R(x)]~\longrightarrow~\neg $\textbf{Many}$\boldsymbol{{x\in D}[B(x) \wedge R(x)]}\longrightarrow\neg \forall{x \in D}[B(x) \rightarrow R(x)]$\\
+      \indent~~~~~~~~~~~~~$\downarrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\downarrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\uparrow$
+      \ex $\neg \exists{x \in D^{\prime}}[B(x) \wedge R(x)]~\longrightarrow~\neg $Many$~{x \in D^{\prime}}[B(x) \wedge R(x)]~\longrightarrow~\neg \forall{x \in D^{\prime}}[B(x) \rightarrow R(x)]$
+    \end{xlist}
+}
+%
+This construction \reff{readmanyneg} is also a contradiction. We have to negate the alternative of the existential for the subdomain ($\neg \exists{x \in D^{\prime}}[B(x) \wedge R(x)]$), which is not entailed by the proposition, and then becomes true ($\exists{x \in D^{\prime}}[B(x) \wedge R(x)]$). So we're saying that \enquote{\emph{John didn't read many books that were in the living room, but he read some books that were on the table, and he read some books that were on the sofa, \ldots{}}} (and so on for every elements of the subdomain).
+
+\paragraph{}
+It seems that NPIs can only appear at one end of the scale to be felicitous. If this is so, we could imagine a NPI containing the information of the quantifier \enquote{\emph{every}}. This NPI \emph{could} appear in a UE context: since it would entail every of its alternative, no exhaustification would take place, and then its meaning would be exactly the same as the \enquote{normal} \enquote{\emph{every}}.
+
+For DE contexts, it may be a different story. Look at the derivation in \reff{readeverynpineg}.
+
+\exs[\label{readeverynpineg}]{
+  \ex John didn't read every_{\textsc{npi}} books.
+  \ex
+    \begin{xlist}
+      \ex\label{readeverynpioneg} O_{\textsc{alt}} [John didn't read every_{\textsc{npi}}$_{[+\sigma,+D]}$ books]
+      \ex O_{\textsc{alt}} $(\neg \forall{x \in D}[B(x) \wedge R(x)])$
+    \end{xlist}
+  \ex\label{readeverynpialtneg} $\sigma$--\textsc{alt} and D--\textsc{alt}
+    \begin{xlist}
+      \ex $\neg \exists{x \in D}[B(x) \wedge R(x)]~\longrightarrow~\neg $Many${x\in D}[B(x) \wedge R(x)]\longrightarrow \boldsymbol{\neg \forall{x \in D}[B(x) \rightarrow R(x)]}$\\
+      \indent~~~~~~~~~~~~~$\downarrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\downarrow$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\uparrow$
+      \ex $\neg \exists{x \in D^{\prime}}[B(x) \wedge R(x)]~\longrightarrow~\neg $Many$~{x \in D^{\prime}}[B(x) \wedge R(x)]~\longrightarrow~\neg \forall{x \in D^{\prime}}[B(x) \rightarrow R(x)]$
+    \end{xlist}
+}
+%
+In this case, we would have a contradiction again. We would have to exhaustify the alternative of the universal for the subdomain, and then end up saying that \enquote{\emph{John didn't ready every book in the living room, but he read every book on the table, and he read every book on the sofa, \ldots{}}} (and so on for every elements of the subdomain).
+
+Another possibility to consider is the place of exhaustification. If it happens \emph{before} negation, as in \reff{everynpiplaceex}, maybe the contradictory effect would not be raised. This is indeed what happens, but as we've seen, \enquote{\emph{every}_{\textsc{npi}}} in a UE context is exactly the same as its non-NPI equivalent.
+
+\begin{exe}
+	\ex\label{everynpiplaceex} NEG [O_{\textsc{alt}} [John read every_{\textsc{npi}}$_{[+\sigma,+D]}$ books]]
+\end{exe}
+
+Thus, a word like \enquote{\emph{every_{\textsc{npi}}}} would either raise up contradiction or be indistinguishable from plain old quantifier \enquote{\emph{every}}.
+
+\paragraph{}
+The conclusion of this section is that NPIs can only appear as indefinites.
+
 %~ \begin{figure}[!h]
   %~ \centering
   %~ \begin{tabular}{|m{1.9cm}|c|c|c|c|c|c|}
@@ -797,7 +836,6 @@ Notice that the exhaustification of $\diamond$\verb![!p$\wedge$q\verb!]! is vacu
 % An evidence for this approach \citep{Fox07}: under negation, the disjunction doesn't have a FC interpretation.
 
 
-\section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
 
  

@@ -17,7 +17,7 @@
 \usepackage[affil-it]{authblk}
 
 
-\title{\textsc{Présentation SynSem}\\Logic in Grammar (G. Chierchia, 2013)\\\vspace{0.3cm}\texttt{Part II}}
+\title{\textsc{SynSem Seminar}\\Logic in Grammar (G. Chierchia, 2013)\\\vspace{0.3cm}\texttt{Part II}}
 \author{Aurore Gonzalez et Lucas Tual}
 \affil{LLING - University of Nantes}
 
@@ -36,7 +36,9 @@
 
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
+The aim of this talk is to present Chierchia's last book, entitled \emph{Logic in Grammar: Polarity, Free Choice and Intervention}, in which he proposes a uniform analysis of many phenomena such as \emph{Scalar Implicatures} (henceforth SIs), the distribution of \emph{Negative Polarity Items} (NPIs) and \emph{Free Choice effects} (FC).
 
+In this second session, we will first quickly summarize what we've done during the first one. Then we will look at a few components of the author's system which are needed to understand the whole system. In a third step, we will explain the analysis of Chierchia for the basic behaviour of NPIs. And finally, we will focus on the difference between two types of these sensitive polarity items.
 
 \section{Summary of the first presentation}
 \subsection{DE vs. UE contexts}
@@ -76,7 +78,7 @@ NPIs, which are a type of \emph{Polarity Sensitive Items}, are sensitive to DE c
   }
   
   
-\subsection{Scalar Implicatures}
+\subsection{Scalar Implicatures}\label{subsec:SIs}
 Recall that SIs don't behave the same when they are situated in a UE and in a DE context.
 
 \begin{itemize}
@@ -84,26 +86,92 @@ Recall that SIs don't behave the same when they are situated in a UE and in a DE
   \item Adding a SI to a sentence embedded within a DE context leads to something weaker than the original, hence is less informative.
 \end{itemize}
   
-
-\begin{description}
-  \item[Maximize Strength:] Don't add an implicature if it leads to weakening, unless you are forced to by the context.
-\end{description}
-
 \paragraph{}
 Chierchia finds a distinction between the distribution of SIs and that of NPIs. SIs are OK in UE contexts, but not in DE contexts, whereas NPIs are OK in DE contexts, but not in UE contexts. The meaning of these Polarity Sensitive items must prevent them to be embedded in UE contexts because it would make the interpretation of the sentence less informative. It is then the exact opposite of what happens with SIs.
 
+\subsection{Focus and covert \emph{only}}
+\emph{Focus}, or \emph{Contrastive Stress},  activates alternatives that must be operated over by alternative sensitive operators. An expression $\Phi$ besides its normal semantic value \eval{$\Phi$}, also has a focus value \eval{$\Phi$}^F, constitued by the set of values of the same type as $\Phi$ \citep{Roo92}. 
 
-\subsection{Extended Standard Grice Theory and properties of SIs}
-The \emph{ESG} theory proposed by Chierchia can be stated as follows:
+  \begin{exe}
+    \ex\label{focval} \eval{Mary_F likes Sue}^F= \{$\lambda$w.Mary likes Sue in w, $\lambda$w.Paul likes Sue in w, $\lambda$w.John likes Sue in w,...\} 
+  \end{exe}
+
+A common way of doing so is via the exhaustifying adverbial \textit{only}.
+  \exs{
+    \ex\label{foca} John only kissed [PAUL and SUE].
+    \ex\label{focb} ALT: \{John kissed Paul, John kissed Sue, ..., John kissed Paul and Sue, John kissed Paul and Mary, ..., John kissed Paul and Marie and Sue\}
+  }
+%
+\emph{Only} in \reff{foca} states that the assertion \textit{John kissed Paul and Sue} and its entailments are the only true members of the relevant set of alternatives (in \reff{focb}).
+
+\emph{Only} is a binary operator which takes as arguments a set C of propositions and a proposition.
+
+  \begin{exe}
+    \ex\label{semonly} Only_C $\Phi=\Phi \wedge \forall p \in C [p\rightarrow \Phi \subseteq p] $ (where $\subseteq$ = entails)
+  \end{exe}
+
+Sometimes, exhaustification can take place with a covert \enquote{\emph{only}}.
+
+\exs{
+  \ex\label{covfoca}
+    \begin{xlist}
+      \ex\label{covfocque} A: Who did John kiss?
+      \ex\label{covfocans} B: John (only) kissed Paul and Sue.
+    \end{xlist}
+  \ex\label{covfocd} O_C [John kissed Paul and Sue]
+}
+%
+If, to the question in \reff{covfocque}, one answers as \reff{covfocans} (with or without an overt \enquote{\emph{only}}), his answer is understood exhaustively, i.e. as \reff{covfocd}.
+
+
+\subsection{Properties of Scalar Implicatures and the Extended Standard Grice Theory}
+\subsubsection{Properties of Scalar Implicatures}
+\begin{enumerate}
+\item \textbf{Cancellability/Optionality:} SIs are generally cancelable (as in \reff{cancel}) or optional (cf. \reff{opt}).
+\exs{
+  \ex\label{cancel} John saw Mary or Sue. In fact, both.
+  \ex\label{opt}
+    \begin{xlist}
+      \ex\label{opta} A: I will come back late. I forgot my keys and need to get into our apartment.
+      \ex\label{optb} B: Some of us will be home.
+    \end{xlist}
+}
+
+\item \textbf{Behaviour in DE contexts:} SIs are often bad when they are generated within a DE context, as we've shown in section \ref{subsec:SIs}.
+
+\item \textbf{(Non-)detachability:} Structures with a similar meaning are expected to trigger the same implicatures.
+Compare the quantifiers \enquote{\emph{some}} and \enquote{\emph{a few}} in sentences \reff{deta} and \reff{det1a}: they both generate a SI containing \enquote{\emph{not all}} (cf. \reff{detb}, \reff{det1b}).
+\exs{
+  \ex\label{deta} Some of the boys went to the party.
+  \ex\label{detb} Not all of the boys went to the party.
+}
+\exs{
+  \ex\label{det1a} I graded a few of the assignments.
+  \ex\label{det1b} I didn't grade all of the assignments.
+}
+
+\item \textbf{Embeddability:} SIs can be embedded within sentences.
+
+\begin{exe}
+  \ex\label{emb1} John is certain that Bill believes that if you get fruit or dessert, you won't have extra charges on the menu's prix fixe.
+\end{exe}
+
+If the alternatives are active, no matter how the assertion is embedded, we can compute them. In other words, exhaustification can take place at the relevant embedded level. 
+\end{enumerate}
+
+\subsubsection{Extended Standard Grice Theory}
+Chierchia suggests a principle of \emph{Maximize Strength} within the \emph{ESG} theory.
+\begin{description}
+  \item[Maximize Strength:]\label{maxstr} Do not exhaustify S in [_{S'}...S...] if it leads to weakening S', unless you have to.
+\end{description}
+
+The \emph{ESG} theory can be stated as follows:
 
 \exs[\label{esg} \textbf{Extended Standard Grice:}]{
 \ex\label{esga} At the root level, the Gricean reasoning is extensionally equivalent to exhaustifying the assertion with respect to a set of salient, relevant alternatives.
 %\ex\label{esgb} Ordinary SIs for ordinary scalar terms can be obtained by assuming that their scalemates are relevant.
 \ex\label{esgc} Exhaustification can take place at embedded levels, subject to Maximize Strength.
 }
-
-
-\subsection{Focus and covert \emph{only}}
 
 
 \section{Components of Chierchia's system}
@@ -154,7 +222,7 @@ We will now illustrate how this works for some sentences.
 
 \subsection{Grammaticality and (un)formativity}
 
- As argued in section 1, a sentence like \reff{grama} where a NPI appears in a non-DE context is contradictory. It thus should have the same status as the sentence in \reff{gramb}.
+A sentence like \reff{grama} where a NPI appears in a non-DE context is contradictory. It thus should have the same status as the sentence in \reff{gramb}.
  \begin{exe}
  \ex\label{gram} \begin{xlist}
  \ex\label{grama} *There are any cookies left.
@@ -203,7 +271,7 @@ We will now illustrate how this works for some sentences.
  \\$\rightarrow$ Non-grammar internal contradiction. 
  \end{itemize}
 
-\section{The Derivation of NPIs}
+\section{Analyse of NPIs}
 
 \subsection{NPIs and Indefinites}
 If you look at minimal pairs of sentences in \reff{npivsindef}, where one contains a NPI like \enquote{\emph{any}} or \enquote{\emph{ever}}, and the other a plain indefinite (\enquote{\emph{a}}) or a bare noun (singular or plural), you can perceive a difference in strength/emphasis: sentences with NPIs feel more emphatic, or less exception tolerant than sentences with indefinites/bare nouns.
@@ -315,7 +383,7 @@ As we've seen in the previous talk, an operator like \emph{O}_C (or its overt co
 
 \exs[]{
   \ex\label{anyovalsem} \eval{\reff{anyo}} $= \neg\exists{x \in D}[$cookies$(x) \wedge $left$(x)]$ \hfill [\emph{$D =$ things in the kitchen}]
-  \ex \begin{tabular}[t]{llp{13cm}}\toprule[-12.5pt]
+  \ex \begin{tabular}[t]{llp{12cm}}\toprule[-12.5pt]
   		ALT & $=$ & $\{\neg\exists{x \in D^\prime}[$cookies$(x) \wedge $left$(x)]: D^\prime \subseteq D]$\}\\
   		    & $=$ & \{there are no cookies left in the oven, there are no cookies left on the kitchen table, there are no cookies left in the fridge, \ldots{}\}
   \end{tabular}  
@@ -378,6 +446,16 @@ We end up with a meaning for the sentence \enquote{\emph{There are any cookies l
 %
 This sentence means that there are cookies left in the relevant domain (here the kitchen), but that there are no cookies left for every subdomain of the kitchen (no cookies in the cupboard, no cookies on the kitchen table, no cookies in the oven\ldots{}). This is clearly a contradiction, and that's why NPI \enquote{\emph{any}} \emph{cannot} appear in UE contexts.
 
+
+\subsection{NPIs are (typically) indefinites}
+There is no language which has a word combining a NPI like \enquote{\emph{any}} with a quantifier or a numeral. No language has any word showing a behaviour as the one in \reff{everynpi}~--~where it is accepted when it appears in a DE context, but not if it appears in a UE context~--~and with a meaning similar to the one of a quantifier like \enquote{\emph{every}}.
+
+\exs[\label{everynpi}]{
+  \ex{*}{I talked to every_{\textsc{npi}} colleague.}
+  \ex I didn't talk to every_{\textsc{npi}} colleague.
+}
+
+From this observation, Chierchia finds a strong generalization: \emph{NPIs are indefinites}.
 %~ \begin{figure}[!h]
   %~ \centering
   %~ \begin{tabular}{|m{1.9cm}|c|c|c|c|c|c|}

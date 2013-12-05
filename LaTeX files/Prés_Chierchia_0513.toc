@@ -26,9 +26,11 @@
 \contentsline {subsubsection}{\numberline {3.2.2}\emph {Any} in DE contexts}{8}
 \contentsline {subsubsection}{\numberline {3.2.3}Why \emph {any} cannot appear in UE contexts}{9}
 \contentsline {subsection}{\numberline {3.3}NPIs are (typically) indefinites}{9}
+\contentsline {subsection}{\numberline {3.4}Informal explanation}{10}
+\contentsline {subsection}{\numberline {3.5}Formal explanation}{10}
 \contentsline {section}{\numberline {4}Weak vs. Strong NPIs}{10}
-\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{12}
 \contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{13}
-\contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{14}
-\contentsline {section}{Conclusion}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {section}{Conclusion}{15}

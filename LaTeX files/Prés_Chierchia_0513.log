@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.26)  5 DEC 2013 01:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.26)  5 DEC 2013 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,49 +388,115 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count99
 \LT@p@ftn=\toks20
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen117
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks22
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks23
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks24
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen117
-\lightrulewidth=\dimen118
-\cmidrulewidth=\dimen119
-\belowrulesep=\dimen120
-\belowbottomsep=\dimen121
-\aboverulesep=\dimen122
-\abovetopsep=\dimen123
-\cmidrulesep=\dimen124
-\cmidrulekern=\dimen125
-\defaultaddspace=\dimen126
-\@cmidla=\count100
-\@cmidlb=\count101
-\@aboverulesep=\dimen127
-\@belowrulesep=\dimen128
-\@thisruleclass=\count102
-\@lastruleclass=\count103
-\@thisrulewidth=\dimen129
+\heavyrulewidth=\dimen126
+\lightrulewidth=\dimen127
+\cmidrulewidth=\dimen128
+\belowrulesep=\dimen129
+\belowbottomsep=\dimen130
+\aboverulesep=\dimen131
+\abovetopsep=\dimen132
+\cmidrulesep=\dimen133
+\cmidrulekern=\dimen134
+\defaultaddspace=\dimen135
+\@cmidla=\count112
+\@cmidlb=\count113
+\@aboverulesep=\dimen136
+\@belowrulesep=\dimen137
+\@thisruleclass=\count114
+\@lastruleclass=\count115
+\@thisrulewidth=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/gb4e/gb4e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/gb4e/cgloss4e.sty
-\lineone=\box30
-\linetwo=\box31
-\linethree=\box32
-\wordone=\box33
-\wordtwo=\box34
-\wordthree=\box35
-\gline=\box36
-\glossglue=\skip54
+\lineone=\box32
+\linetwo=\box33
+\linethree=\box34
+\wordone=\box35
+\wordtwo=\box36
+\wordthree=\box37
+\gline=\box38
+\glossglue=\skip57
 )
-\c@fnx=\count104
-\@xnumdepth=\count105
-\c@xnumi=\count106
-\c@xnumii=\count107
-\c@xnumiii=\count108
-\c@xnumiv=\count109
-\c@exx=\count110
-\c@rxnumi=\count111
-\c@rxnumii=\count112
-\c@rxnumiii=\count113
-\c@rxnumiv=\count114
-\lcommentsep=\skip55
+\c@fnx=\count116
+\@xnumdepth=\count117
+\c@xnumi=\count118
+\c@xnumii=\count119
+\c@xnumiii=\count120
+\c@xnumiv=\count121
+\c@exx=\count122
+\c@rxnumi=\count123
+\c@rxnumii=\count124
+\c@rxnumiii=\count125
+\c@rxnumiv=\count126
+\lcommentsep=\skip58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/qtree/qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
@@ -452,7 +518,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count115
+\Gread@gobject=\count127
 )
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 
@@ -462,115 +528,115 @@ File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-\pIIe@GRAPH=\toks21
-\@arclen=\dimen130
-\@arcrad=\dimen131
-\@tempdimd=\dimen132
+\pIIe@GRAPH=\toks26
+\@arclen=\dimen139
+\@arcrad=\dimen140
+\@tempdimd=\dimen141
 )
-\c@treecount=\count116
-\c@branchcount=\count117
-\parentbox=\box37
-\treebox=\box38
-\treeboxone=\box39
-\treeboxtwo=\box40
-\treeboxthree=\box41
-\treeboxfour=\box42
-\treeboxfive=\box43
-\treeboxsix=\box44
-\treeboxseven=\box45
-\treeboxeight=\box46
-\treeboxnine=\box47
-\treeboxten=\box48
-\treeboxeleven=\box49
-\treeboxtwelve=\box50
-\treeboxthirteen=\box51
-\treeboxfourteen=\box52
-\treeboxfifteen=\box53
-\treeboxsixteen=\box54
-\treeboxseventeen=\box55
-\treeboxeighteen=\box56
-\treeboxnineteen=\box57
-\treeboxtwenty=\box58
-\treeoffsetone=\skip56
-\treeoffsettwo=\skip57
-\treeoffsetthree=\skip58
-\treeoffsetfour=\skip59
-\treeoffsetfive=\skip60
-\treeoffsetsix=\skip61
-\treeoffsetseven=\skip62
-\treeoffseteight=\skip63
-\treeoffsetnine=\skip64
-\treeoffsetten=\skip65
-\treeoffseteleven=\skip66
-\treeoffsettwelve=\skip67
-\treeoffsetthirteen=\skip68
-\treeoffsetfourteen=\skip69
-\treeoffsetfifteen=\skip70
-\treeoffsetsixteen=\skip71
-\treeoffsetseventeen=\skip72
-\treeoffseteighteen=\skip73
-\treeoffsetnineteen=\skip74
-\treeoffsettwenty=\skip75
-\treeshiftone=\skip76
-\treeshifttwo=\skip77
-\treeshiftthree=\skip78
-\treeshiftfour=\skip79
-\treeshiftfive=\skip80
-\treeshiftsix=\skip81
-\treeshiftseven=\skip82
-\treeshifteight=\skip83
-\treeshiftnine=\skip84
-\treeshiftten=\skip85
-\treeshifteleven=\skip86
-\treeshifttwelve=\skip87
-\treeshiftthirteen=\skip88
-\treeshiftfourteen=\skip89
-\treeshiftfifteen=\skip90
-\treeshiftsixteen=\skip91
-\treeshiftseventeen=\skip92
-\treeshifteighteen=\skip93
-\treeshiftnineteen=\skip94
-\treeshifttwenty=\skip95
-\treewidthone=\skip96
-\treewidthtwo=\skip97
-\treewidththree=\skip98
-\treewidthfour=\skip99
-\treewidthfive=\skip100
-\treewidthsix=\skip101
-\treewidthseven=\skip102
-\treewidtheight=\skip103
-\treewidthnine=\skip104
-\treewidthten=\skip105
-\treewidtheleven=\skip106
-\treewidthtwelve=\skip107
-\treewidththirteen=\skip108
-\treewidthfourteen=\skip109
-\treewidthfifteen=\skip110
-\treewidthsixteen=\skip111
-\treewidthseventeen=\skip112
-\treewidtheighteen=\skip113
-\treewidthnineteen=\skip114
-\treewidthtwenty=\skip115
-\daughteroffsetone=\skip116
-\daughteroffsettwo=\skip117
-\daughteroffsetthree=\skip118
-\daughteroffsetfour=\skip119
-\branchwidthone=\skip120
-\branchwidthtwo=\skip121
-\branchwidththree=\skip122
-\branchwidthfour=\skip123
-\parentoffset=\skip124
-\treeoffset=\skip125
-\daughteroffset=\skip126
-\branchwidth=\skip127
-\parentwidth=\skip128
-\treewidth=\skip129
-\qta=\toks22
-\qtb=\toks23
-\nbranches=\count118
-\qroofx=\count119
-\qroofy=\count120
-\@qrscratchbox=\box59
+\c@treecount=\count128
+\c@branchcount=\count129
+\parentbox=\box39
+\treebox=\box40
+\treeboxone=\box41
+\treeboxtwo=\box42
+\treeboxthree=\box43
+\treeboxfour=\box44
+\treeboxfive=\box45
+\treeboxsix=\box46
+\treeboxseven=\box47
+\treeboxeight=\box48
+\treeboxnine=\box49
+\treeboxten=\box50
+\treeboxeleven=\box51
+\treeboxtwelve=\box52
+\treeboxthirteen=\box53
+\treeboxfourteen=\box54
+\treeboxfifteen=\box55
+\treeboxsixteen=\box56
+\treeboxseventeen=\box57
+\treeboxeighteen=\box58
+\treeboxnineteen=\box59
+\treeboxtwenty=\box60
+\treeoffsetone=\skip59
+\treeoffsettwo=\skip60
+\treeoffsetthree=\skip61
+\treeoffsetfour=\skip62
+\treeoffsetfive=\skip63
+\treeoffsetsix=\skip64
+\treeoffsetseven=\skip65
+\treeoffseteight=\skip66
+\treeoffsetnine=\skip67
+\treeoffsetten=\skip68
+\treeoffseteleven=\skip69
+\treeoffsettwelve=\skip70
+\treeoffsetthirteen=\skip71
+\treeoffsetfourteen=\skip72
+\treeoffsetfifteen=\skip73
+\treeoffsetsixteen=\skip74
+\treeoffsetseventeen=\skip75
+\treeoffseteighteen=\skip76
+\treeoffsetnineteen=\skip77
+\treeoffsettwenty=\skip78
+\treeshiftone=\skip79
+\treeshifttwo=\skip80
+\treeshiftthree=\skip81
+\treeshiftfour=\skip82
+\treeshiftfive=\skip83
+\treeshiftsix=\skip84
+\treeshiftseven=\skip85
+\treeshifteight=\skip86
+\treeshiftnine=\skip87
+\treeshiftten=\skip88
+\treeshifteleven=\skip89
+\treeshifttwelve=\skip90
+\treeshiftthirteen=\skip91
+\treeshiftfourteen=\skip92
+\treeshiftfifteen=\skip93
+\treeshiftsixteen=\skip94
+\treeshiftseventeen=\skip95
+\treeshifteighteen=\skip96
+\treeshiftnineteen=\skip97
+\treeshifttwenty=\skip98
+\treewidthone=\skip99
+\treewidthtwo=\skip100
+\treewidththree=\skip101
+\treewidthfour=\skip102
+\treewidthfive=\skip103
+\treewidthsix=\skip104
+\treewidthseven=\skip105
+\treewidtheight=\skip106
+\treewidthnine=\skip107
+\treewidthten=\skip108
+\treewidtheleven=\skip109
+\treewidthtwelve=\skip110
+\treewidththirteen=\skip111
+\treewidthfourteen=\skip112
+\treewidthfifteen=\skip113
+\treewidthsixteen=\skip114
+\treewidthseventeen=\skip115
+\treewidtheighteen=\skip116
+\treewidthnineteen=\skip117
+\treewidthtwenty=\skip118
+\daughteroffsetone=\skip119
+\daughteroffsettwo=\skip120
+\daughteroffsetthree=\skip121
+\daughteroffsetfour=\skip122
+\branchwidthone=\skip123
+\branchwidthtwo=\skip124
+\branchwidththree=\skip125
+\branchwidthfour=\skip126
+\parentoffset=\skip127
+\treeoffset=\skip128
+\daughteroffset=\skip129
+\branchwidth=\skip130
+\parentwidth=\skip131
+\treewidth=\skip132
+\qta=\toks27
+\qtb=\toks28
+\nbranches=\count130
+\qroofx=\count131
+\qroofy=\count132
+\@qrscratchbox=\box61
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -580,17 +646,17 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count121
+\et@xins=\count133
 )
-\etb@tempcnta=\count122
+\etb@tempcnta=\count134
 )
-\csq@reset=\count123
-\csq@gtype=\count124
-\csq@glevel=\count125
-\csq@qlevel=\count126
-\csq@maxlvl=\count127
-\csq@tshold=\count128
-\csq@ltx@everypar=\toks24
+\csq@reset=\count135
+\csq@gtype=\count136
+\csq@glevel=\count137
+\csq@qlevel=\count138
+\csq@maxlvl=\count139
+\csq@tshold=\count140
+\csq@ltx@everypar=\toks29
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
@@ -603,7 +669,7 @@ File: csquotes.cfg
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
-\symstmry=\mathgroup6
+\symstmry=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
@@ -764,11 +830,11 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip130
-\@affilsep=\skip131
-\c@Maxaffil=\count129
-\c@authors=\count130
-\c@affil=\count131
+\affilsep=\skip133
+\@affilsep=\skip134
+\c@Maxaffil=\count141
+\c@authors=\count142
+\c@affil=\count143
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -778,33 +844,33 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./Prés_Chierchia_0513.aux)
 \openout1 = `Prés_Chierchia_0513.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 33.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 31.
-LaTeX Info: Redefining \dots on input line 31.
-LaTeX Info: Redefining \up on input line 31.
+LaTeX Info: Redefining \degres on input line 33.
+LaTeX Info: Redefining \dots on input line 33.
+LaTeX Info: Redefining \up on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -842,19 +908,19 @@ LaTeX Info: Redefining \up on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen133
-\scratchbox=\box60
-\nofMPsegments=\count133
-\nofMParguments=\count134
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen134
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count144
+\scratchdimen=\dimen142
+\scratchbox=\box62
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen143
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks31
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 35.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./Prés_Chierchia_0513.toc
@@ -903,81 +969,90 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 4.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 87.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2] [3] [4] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 261.
+(Font)              <9> on input line 263.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 261.
- [6] [7] [8] [9] [10]
-LaTeX Font Info:    Calculating math sizes for size <7.11742> on input line 577
+(Font)              <5> on input line 263.
+ [6] [7] [8] [9]
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 479.
+
+[10] [11]
+LaTeX Font Info:    Calculating math sizes for size <7.11742> on input line 620
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.11742> on input line 577.
+(Font)              <7.11742> on input line 620.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.98216> on input line 577.
+(Font)              <4.98216> on input line 620.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.5587> on input line 577.
+(Font)              <3.5587> on input line 620.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.5587> not available
-(Font)              size <5> substituted on input line 577.
+(Font)              size <5> substituted on input line 620.
 
 
-Overfull \hbox (0.6619pt too wide) in paragraph at lines 579--580
+Overfull \hbox (0.6619pt too wide) in paragraph at lines 622--623
 []$\OML/lmm/m/it/10.95 ^^Y$\T1/lmr/m/n/10.95 (only John said some-thing in week
 s)=John said some-thing in weeks $\OMS/lmsy/m/n/10.95 ^8$ \T1/lmr/m/n/10.95 x[x
  said somthing
  []
 
-[11]
-Overfull \hbox (0.44513pt too wide) in paragraph at lines 612--613
+[12]
+Overfull \hbox (0.44513pt too wide) in paragraph at lines 655--656
 []\T1/lmr/m/n/10.95 O$[]$(few$[]$ peo-ple saw Mary in weeks$[]$)=few$[]$ peo-pl
 e saw Mary in weeks $\OMS/lmsy/m/n/10.95 ^:$\T1/lmr/m/n/10.95 NO$[]$
  []
 
-[12] [13] (./Prés_Chierchia_0513.bbl [14]) [15] (./Prés_Chierchia_0513.aux)
+[13] [14] (./Prés_Chierchia_0513.bbl) [15] (./Prés_Chierchia_0513.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.4413pt have occurred.
 
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 6154 strings out of 493304
- 80547 string characters out of 6139870
- 161953 words of memory out of 5000000
- 9453 multiletter control sequences out of 15000+600000
- 95384 words of font info for 85 fonts, out of 8000000 for 9000
+ 6852 strings out of 493304
+ 88462 string characters out of 6139870
+ 173535 words of memory out of 5000000
+ 10120 multiletter control sequences out of 15000+600000
+ 129735 words of font info for 111 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 30i,11n,32p,830b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,11n,32p,830b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/stmaryrd/stmary10.pfb>
-Output written on Prés_Chierchia_0513.pdf (15 pages, 426149 bytes).
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
+Output written on Prés_Chierchia_0513.pdf (15 pages, 436137 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

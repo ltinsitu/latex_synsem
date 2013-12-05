@@ -29,8 +29,18 @@
 \contentsline {subsection}{\numberline {3.4}Informal explanation}{10}
 \contentsline {subsection}{\numberline {3.5}Formal explanation}{10}
 \contentsline {section}{\numberline {4}Weak vs. Strong NPIs}{10}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
 \contentsline {paragraph}{}{12}
-\contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{13}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{14}
+\contentsline {section}{\numberline {5}The Free Choice uses of disjunction}{14}
 \contentsline {paragraph}{}{14}
-\contentsline {section}{Conclusion}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {section}{Conclusion}{16}

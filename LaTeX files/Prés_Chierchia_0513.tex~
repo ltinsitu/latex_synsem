@@ -8,6 +8,8 @@
 \usepackage{array}
 \usepackage{amssymb}
 \usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{bm}
 \usepackage{booktabs}
 \usepackage{gb4e}
 \usepackage{qtree}
@@ -406,7 +408,7 @@ This is the case for every other appearance of \enquote{\emph{any}} in a DE cont
 }
 
 
-\subsubsection{Why \emph{any} cannot appear in UE contexts}
+\subsubsection{Why \emph{any} cannot appear in UE contexts}\label{subsec:anyue}
 Now, let's turn to why NPIs like \enquote{\emph{any}} cannot appear in UE contexts. In this case, the situation is different. If a sentence like \reff{anyue} were grammatical, it would be similar to a sentence with a plain existential, and its meaning would be \reff{anyuemeaning}.
 
 \exs{
@@ -456,6 +458,47 @@ There is no language which has a word combining a NPI like \enquote{\emph{any}} 
 }
 
 From this observation, Chierchia finds a strong generalization: \emph{NPIs are indefinites}.
+
+\subsection{Informal explanation}
+
+\subsection{Formal explanation}
+First, let's see what happens with an indefinites in a UE context.
+
+\exs{
+  \ex\label{readsome} John read some books.
+  \ex
+    \begin{xlist}
+      \ex\label{readsomeo} O_{\textsc{alt}} [John read some$_{[+\sigma,+D]}$ books]
+      \ex O_{\textsc{alt}} $(\exists{x \in D}[B(x) \wedge R(x)])$
+    \end{xlist}
+  \ex\label{readsomealt} $\sigma$--\textsc{alt} and D--\textsc{alt}
+    \begin{xlist}
+      \ex $\boldsymbol{\exists{x \in D}[B(x) \wedge R(x)]}~~~\longleftarrow~~~$Many$~{x \in D}[B(x) \wedge R(x)]~~~\longleftarrow~~~\forall{x \in D}[B(x) \rightarrow R(x)]$
+      \ex $\boldsymbol{\exists{x \in D}[B(x) \wedge R(x)]}~~~\longleftarrow~~~\exists{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longleftarrow~~~$Many$~{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longleftarrow~~~\forall{x \in D^{\prime}}[B(x) \rightarrow R(x)]$
+    \end{xlist}
+}
+%
+You can see in \reff{readsomealt} that the proposition expressed by the sentence \enquote{\emph{John read some books}} is entailed by every of its alternatives. Thus, if you exhaustify these alternatives, this would lead to a contradiction (we've explained this process in section \reff{subsec:anyue}).
+
+If you look at this same sentence under negation (DE context), you'll see that the effect of negation is to reverse all the entailments (cf. \reff{readsomeneg}).
+
+\exs[\label{readsomeneg}]{
+  \ex John didn't read some books.
+  \ex
+    \begin{xlist}
+      \ex\label{readsomeoneg} O_{\textsc{alt}} [John didn't read some$_{[+\sigma,+D]}$ books]
+      \ex O_{\textsc{alt}} $(\neg \exists{x \in D}[B(x) \wedge R(x)])$
+    \end{xlist}
+  \ex\label{readsomealtneg} $\sigma$--\textsc{alt} and D--\textsc{alt}
+    \begin{xlist}
+      \ex $\boldsymbol{\neg \exists{x \in D}[B(x) \wedge R(x)]}~~~\longrightarrow~~~\neg $Many$~{x \in D}[B(x) \wedge R(x)]~~~\longrightarrow~~~\neg \forall{x \in D}[B(x) \rightarrow R(x)]$
+      \ex $\boldsymbol{\neg \exists{x \in D}[B(x) \wedge R(x)]}~~~\longrightarrow~~~\neg \exists{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longrightarrow~~~\neg $Many$~{x \in D^{\prime}}[B(x) \wedge R(x)]~~~\longrightarrow~~~\neg \forall{x \in D^{\prime}}[B(x) \rightarrow R(x)]$
+    \end{xlist}
+}
+%
+Since the proposition entails every alternative, exhaustification cannot take place and the sentence with negation is grammatical.
+
+Now, let's try to make up some new NPI, containing lexical information and morphology of the quantifier \enquote{\emph{many}}. This would lead
 %~ \begin{figure}[!h]
   %~ \centering
   %~ \begin{tabular}{|m{1.9cm}|c|c|c|c|c|c|}

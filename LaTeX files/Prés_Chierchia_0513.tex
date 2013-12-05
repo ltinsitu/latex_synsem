@@ -179,7 +179,7 @@ The \emph{ESG} theory can be stated as follows:
 \section{Components of Chierchia's system}
 \subsection{The syntax of exhaustification:}
 
-Recall that SIs come about through a covert operator that is used when lexically (or focus) activated alternatives are relevant to the conversational goals. Chierchia assumes that if the lexically induced alternatives are relevant/active, they must be factored into meaning through covert exhaustification, and vice versa: covert exhaustifiers are employed only when the alternatives of an alternative bearer are relevant.
+Recall that SIs come about through a covert operator that is used when lexically (or focus) activated alternatives are relevant to the conversational goals. Chierchia assumes that if the alternatives are relevant/active, they must be factored into meaning through covert exhaustification, and vice versa: covert exhaustifiers are employed only when the alternatives of an alternative bearer are relevant.
 \\\textbf{Claim:} Exhaustification takes place in syntax in terms of feature checking/agreement, with the following condition: Use an O operator iff there is a trigger in its scope with active alternatives. 
  \paragraph{}
 A typical example to illustrate feature agreement:
@@ -191,7 +191,8 @@ A typical example to illustrate feature agreement:
 \end{exe}
 The first person pronoun in the second clause triggers person agreement on the verb: the feature \verb![!1st p\verb!]! is semantically effective on the subject pronoun but not on the verb. The verb carries an unvalued person feature (\verb![!u p\verb!]!) that needs to be checked by the feature \verb![!1st p\verb!]!. The subject probes its c-command domain and targets the unvalued person feature on the verb, assigning it a value.
 \paragraph{}
-Adopting feature agreement in the system, Chierchia assumes that any scalar term carries a complex feature made up of two unvalued component \verb![!u$\sigma$, uD\verb!]! (henceforth \verb![!$\sigma$, D\verb!]!), which corresponds intuitively to the strictly scalar and the Domain-alternatives respectively. The notion of Domain-alternatives  (henceforth D-alternatives) was introduced by \cite{Sau04}. His claim was the following: as disjunction corresponds to an existential quantification of over \{p,q\}, each individual disjunct \{p,q\} is also among the alternatives for \verb![!p$\vee$ q\verb!]!. $\rightarrow$ D-alternatives are all the subdomains of the domain of disjunction/existential quantification.
+Adopting feature agreement in the system, Chierchia assumes that any scalar term carries a complex feature made up of two unvalued component \verb![!u$\sigma$, uD\verb!]! (henceforth \verb![!$\sigma$, D\verb!]!), which corresponds intuitively to the strictly scalar and the Domain-alternatives respectively. \\The notion of Domain-alternatives  (henceforth D-alternatives) was introduced by \cite{Sau04}. 
+His claim was the following: as disjunction corresponds to an existential quantification of over \{p,q\}, each individual disjunct \{p,q\} is also among the alternatives for \verb![!p$\vee$ q\verb!]!. $\rightarrow$ D-alternatives are all the subdomains of the domain of disjunction/existential quantification.
 \\ Then, an exhaustifying operator O probes for the complex feature \verb![!$\sigma$, D\verb!]! in order to determine its restriction. There are three types of restrictions:
 
 \begin{enumerate}
@@ -201,7 +202,7 @@ Adopting feature agreement in the system, Chierchia assumes that any scalar term
 \end{enumerate}
 In the absence of a c-commanding suitable operator, the complex feature  gets value "-" by default, signaling that the alternatives are inactive.
 \paragraph{}
-We will now illustrate how this works for some sentences.
+We will now illustrate how it works for some sentences containing \textit{or}.
 \begin{exe}
 \ex\label{oagree} \begin{xlist}
 \ex\label{oagreea} \begin{xlist}
@@ -520,7 +521,10 @@ Now, let's try to make up some new NPI, containing lexical information and morph
 %~ \end{figure}
 \section{Weak vs. Strong NPIs}
 
-Recall that NPIs such as \textit{any} and \textit{ever} are always licensed in DE contexts, but never in UE contexts. There NPIS are called \textit{weak NPIs}. Some NPIs, such as \textit{in weeks} and \textit{until} in English can only appear in a limited subset of DE contexts; they are called \textit{strong NPIs}.
+
+
+Recall that NPIs such as \textit{any} and \textit{ever}, are always licensed in DE contexts, but never in UE contexts. These NPIs are called \textit{weak NPIs}. 
+\\Some NPIs, such as \textit{in weeks} and \textit{until} in English can only appear in a limited subset of DE contexts; they are called \textit{strong NPIs}.
 \begin{exe}
 \ex\label{wkstr} \begin{xlist}
 \ex\label{wkstr1} \begin{xlist}
@@ -537,36 +541,40 @@ Recall that NPIs such as \textit{any} and \textit{ever} are always licensed in D
 \end{xlist}
 \end{xlist}
 \end{exe}
-Although propositional negation, the antecedent of conditional and the quantifier \textit{at most} are DE contexts, the NPI \textit{in weeks} can only appear in the scope of the propositional negation (\reff{wkstr1a}). It seems that being DE is not sufficient for licensing strong NPIs.
-\\Zwarts(1996)'s generealization: Strong NPIs can only appear in Anti-additive (henceforth AA) contexts. 
+Although the propositional negation, the antecedent of conditional and the quantifier \textit{at most} are all DE contexts, the NPI \textit{in weeks} can only appear in the scope of the propositional negation (\reff{wkstr1a}). It seems that being DE is not sufficient to license strong NPIs.
+\paragraph{}
+\textbf{Zwarts(1996)'s generalization}: Strong NPIs can only appear in Anti-Additive (henceforth AA) contexts. 
 \begin{exe}
 \ex\label{aa} Anti-additivity \\$\Phi$ is anti-additive iff $\Phi(\alpha\vee\beta) \leftrightarrow \Phi(\alpha)\wedge \Phi(\beta)$
 \end{exe}
 Being AA is stronger than being DE: every AA item is also DE, whereas many DE items are not AA.
 \begin{exe}
 \ex\label{aa1} \begin{xlist}
-\ex\label{aaneg} John doesn't smoke or drink. $\leftrightarrow$ John doesn't smoke and doesn't drink.
+\ex\label{aaneg} John does\textbf{n't} smoke \textbf{or} drink. $\leftrightarrow$ John does\textbf{n't} smoke \textbf{and} does\textbf{n't} drink.
 \\$\Rightarrow$ Sentential negation is an AA item.
-\ex\label{aaatmost} At most five students smoke or drink. $\rightarrow$ At most five students smoke and at most five students drink.
+\ex\label{aaatmost} \textbf{At most} five students smoke \textbf{or} drink. $\rightarrow$ \textbf{At most} five students smoke \textbf{and at most} five students drink.
 \\$\Rightarrow$ The quantifier \textit{at most} is only a DE item.
 \end{xlist}
 \end{exe}
-Three issues related to Zwarts's generalization inside Chierchia's system:
-\begin{enumerate}
-\item The property of being AA doesn't describe accurately the contexts that license strong NPIs; there are few cases in which AA seems not to be descriptively adequate.
+For Zwarts, the fact that sentential negation is an AA item and the quantifier \textit{at most n NP} is a DE item, explains why the strong NPI \textit{in weeks} is licensed in the scope of the former but not in the scope of the latter.
+\paragraph{}
+However, the property of being AA doesn't describe accurately contexts that license strong NPIs; there are few cases in which being AA doesn't seem to be descriptively adequate.
 \begin{exe}
 \ex\label{everyno} \begin{xlist}
 \ex\label{argevery} \begin{xlist}
-\ex\label{argeverya} Every red or blue book is on the table. $\leftrightarrow$ Every red book is on the table and every blue book is on the table.
-\ex\label{argeveryb} *Every person who has seen Mary in weeks is upset with her.
+\ex\label{argeverya} \textbf{Every} red \textbf{or} blue book is on the table. $\leftrightarrow$ \textbf{Every} red book is on the table \textbf{and every} blue book is on the table.
+\ex\label{argeveryb} *\textbf{Every} person who has seen Mary \textbf{in weeks} is upset with her.
 \end{xlist}
 \ex\label{argno} \begin{xlist}
-\ex\label{argnoa} No red or blue book is on the table. $\leftrightarrow$ No red book is on the table and no blue book is on the table.
-\ex\label{argnob} *No person who has seen Mary in weeks is upset with her. ??? 
+\ex\label{argnoa} \textbf{No} red \textbf{or} blue book is on the table. $\leftrightarrow$ \textbf{No} red book is on the table \textbf{and no} blue book is on the table.
+\ex\label{argnob} *\textbf{No} person who has seen Mary \textbf{in weeks} is upset with her.
 \end{xlist}
 \end{xlist}
 \end{exe}
-While the left arguments of the quantifiers \textit{every} and \textit{no} are AA, as schown in \reff{argeverya} and \reff{argnoa} respectively, they cannot licensed the strong NPIs \textit{in weeks} (\reff{argeveryb},\reff{argnob}).
+While the left arguments of the quantifiers \textit{every} and \textit{no} are AA, as shown in \reff{argeverya} and \reff{argnoa} respectively, they cannot licensed the strong NPI \textit{in weeks} (\reff{argeveryb},\reff{argnob}).
+\paragraph{}
+Some issues, the system will need to account for:
+\begin{enumerate}
 \item Presupposition triggers never license strong NPIs.
 \begin{exe}
 \ex\label{presuptrig} \begin{xlist}
@@ -574,17 +582,19 @@ While the left arguments of the quantifiers \textit{every} and \textit{no} are A
 \ex\label{presuptrigb} *John was surprised that he saw Mary in weeks.
 \end{xlist}
 \end{exe}
-Therefore, while weak NPIs are licensed in the local scope of SDE operators (i.e. are sensitive to S-entailment), strong NPIs are licensed in the local scope of AA operators 
-characterized in therms of classical entailment (i.e. are sensitive to plain entailment).
-\item As the distribution of weak NPIs does in this system, the distribution of strong NPIs must fall out from thier lexical semantics and the way it interacts with independent elements that may be present in their structure. 3 possibilities within this system to explain the distribution of strong NPIs:
+% Therefore, while weak NPIs are licensed in the local scope of SDE operators (i.e. are sensitive to S-entailment), strong NPIs are licensed in the local scope of AA operators 
+% characterized in therms of classical entailment (i.e. are sensitive to plain entailment).
+\item As the distribution of weak NPIs does in this system, the distribution of strong NPIs must fall out from their lexical semantics and the way it interacts with independent elements that may be present in their structure. \\3 possibilities within this system to explain the distribution of strong NPIs:
 \begin{itemize}
 \item some common feature in the lexical meaning of strong NPIs;
 \item the type of alternatives strong NPIs activate;
 \item the type of exhaustification strong NPIs invoke.
 \end{itemize}
 \end{enumerate}
+\paragraph{}
+
 $\Rightarrow$ How can we understand the distinction between weak and strong NPIs within this exhaustification-based  system?
-\\General idea: Meaning has several dimensions: 1 - a pure truth conditional component; 2 - a presuppositional component and 3 - an implicature component.
+\\\textbf{General idea:} Meaning has several dimensions: 1 - a pure truth conditional component; 2 - a presuppositional component and 3 - an implicature component.
 \begin{exe}
 \ex\label{mean} \begin{xlist}
 \ex\label{mean1} Not every student of John's drink.
@@ -595,76 +605,102 @@ $\Rightarrow$ How can we understand the distinction between weak and strong NPIs
 \end{xlist}
 \end{xlist}
 \end{exe}
-Claim: Strong NPIs, as weak NPIs, activate logically stronger alternatives, but While weak NPIs just need to exhaustify the truth-conditional component of meaning, strong NPIs need to be exhaustified with respect to all the dimensions of meaning.
+Although the truth-conditional component of an expression is DE, if you add to it, its presuppositional component and its implicature component, sometimes the result won't be DE.
+\\To illustrate, consider again the sentence in \reff{mean1}.
+\begin{exe}
+\ex\label{mean3} \begin{xlist}
+\ex\label{mean3a} $\neg\forall$x[student of j(x) $\rightarrow$ drink(x)] $\rightarrow$ $\neg\forall$x[student of j(x) $\rightarrow$ drink beer(x)]
+\\$\Rightarrow$ The expression \textit{not every NP} is DE.
+\ex\label{mean3b} $\neg\forall x$[student of j(x)$\rightarrow$drink(x)] $\wedge$ $\exists$x[student of j(x) $\wedge$ drink(x)] $\nrightarrow$ $\neg\forall x$[student of j(x)$\rightarrow$drink beer(x)] $\wedge$ $\exists$x[student of j(x) $\wedge$ drink beer(x)]
+\\$\Rightarrow$ When the truth-conditional component and the implicature component of the expression \textit{not every NP} are added together, the result is not DE.
+\end{xlist}
+\end{exe}
 \paragraph{}
-Illustration with the strong NPI \textit{in weeks}:
+\textbf{Claim:} Strong NPIs, as weak NPIs, activate logically stronger alternatives, but while a sentence containing a weak NPI just need to be exhaustified with respect to the truth-conditional component of meaning, a sentence containing a strong NPI needs to be exhaustified with respect to all the dimensions of meaning.
+\paragraph{}
+To illustrate this claim, consider the strong NPI \textit{in weeks}.
 \\To begin with, Chierchia assumes that \textit{in XPs} is an event modifier meaning something like `over a temporal span lasting one or more XPs'.
 \begin{exe}
 \ex\label{inwiks} \begin{xlist}
 \ex\label{inwiksa} *Joe met Mary in weeks.
-\ex\label{inwiksb} $\exists$e[met_w(e,j,m)$\wedge$cul(e)$\wedge\tau$(e)$\subset$ WEEKS] with cul=culminated, $\tau$(e)=the temporal span of e and $\subset$ stands for temporal inclusion
+\ex\label{inwiksb} Truth-conditions: $\exists$e[met_w(e,j,m)$\wedge$cul(e)$\wedge\tau$(e)$\subset$ WEEKS] 
+\\where cul=culminated, $\tau$(e)=the temporal span of e and $\subset$ stands for temporal inclusion
 \ex\label{inwiksc} There is a culminated event of Joe meeting Mary whose temporal span is included in a period of one or more weeks long.
 \end{xlist}
 \end{exe}
-\reff{inwiksb}: Truth-conditions of \reff{inwiksa}.
-\\Now, as \textit{in weeks} in an NPI, it is the weak element of a range of grammatically determined alternatives.
+As \textit{in weeks} in an NPI, it activates subdomains alternatives, as follows:
 \begin{exe}
 \ex\label{altiw} Alternatives: \begin{xlist}
 \ex\label{altiwa} Joe met Mary in D, where D is a time interval smaller than \textit{weeks}.
 \ex\label{altiwb} $\exists$e[met_w(e,j,m)$\wedge$cul(e)$\wedge\tau$(e)$\subset$ D]
 \end{xlist}
 \end{exe}
-Notice that as the alternatives of the form (\reff{altiwb}) entail (\reff{inwiksb}), if we fulfill the usual exhaustification, we would expect \textit{in weeks} to behave as weak NPIs. However, recall that \textit{in weeks} need to be exhaustified with respect to the presuppositions and the implicatures of its environment.
+Notice that the alternatives of the form (\reff{altiwb}) entail (\reff{inwiksb}): as D is a time interval smaller than WEEKS, if Joe met Mary in D, it entails that Joe met Mary in WEEKS. Therefore, if we fulfill the usual exhaustification, we would expect \textit{in weeks} to behave as weak NPIs.
+\paragraph{}
+However, recall that Chierchia claims that a sentence containing \textit{in weeks} needs to be exhaustified with respect to its presuppositions and its implicatures.
 \begin{enumerate}
-\item Role of presuppositions: 
-To introduce, the $\pi$ operator indicates that a proposition is spliting into its content component \up{$\alpha$}p and its presuppositional component \up{$\pi$}p, as the following example shows.
+\item \textit{Role of presuppositions:} 
+\\To begin with, the $\pi$ operator applied to a proposition \textit{p} splits this proposition into its content component \textit{\up{$\alpha$}p} and its presuppositional component \textit{\up{$\pi$}p}, as the following example shows.
 \begin{exe}
-\ex\label{pi} $\pi$(only John said something in weeks)=John said something in weeks $\wedge\forall$ x[x said somthing in weeks $\rightarrow$ x=John] 
+\ex\label{pi} \begin{xlist}
+\ex\label{pia} *Only John said something in weeks.
+\ex\label{pib} $\pi$(only John said something in weeks)=John said something in weeks $\wedge\forall$ x[x said something in weeks $\rightarrow$ x=John] 
+\end{xlist}
 \end{exe}
-Claim: Strong NPIs occuring in a proposition p are exhaustified relative to $\pi(p)$. If the NPI occurs in a non-DE context in $\pi(p)$, the result of exhaustification will be G-trivial, as the following example shows:
+\textbf{Claim:} Strong NPIs occurring in a proposition p are exhaustified relative to $\pi(p)$. If  $\pi(p)$ is non-DE, the result of exhaustification will be G-trivial.
+\paragraph{}
+Let's go back to the sentence in \reff{pia}.
 \begin{exe}
-\ex\label{pialt} O\up{s}_{ALT}(only John said something in weeks_{+D})=only John said something in weeks $\wedge$ $\forall p\in$ ALT[$\pi$(p) $\rightarrow$ $\pi$(only John said something in weeks) $\subseteq \pi$(p)]
-\end{exe}
-To follow, the presupposition-enriched assertion with its alternative:
-\begin{exe}
+\ex\label{pialt} \begin{xlist}
+\ex\label{pialta} O\up{s}_{ALT}(only John said something in weeks_{+D})=only John said something in weeks $\wedge$ $\forall p\in$ ALT[$\pi$(p) $\rightarrow$ $\pi$(only John said something in weeks) $\subseteq \pi$(p)]
+\ex\label{pialtb} Alternatives: John said something in D $\wedge\forall$ x[x said something in D $\rightarrow$ x=John]
+\\where D$\subset$WEEKS
 \ex\label{presupalt} John said something in weeks  $\wedge\forall$ x[x said something in weeks $\rightarrow$ x=John]
-\\$\Uparrow\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow$ 
-John said something in D $\wedge\forall$ x[x said something in D $\rightarrow$ x=John]
-\\where D$\subset$WEEKS 
+\\$\Uparrow\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow$ 
+\\John said something in D $\wedge\forall$ x[x said something in D $\rightarrow$ x=John]
+\ex\label{pialtc} O\up{s}_{ALT}(only John said something in weeks)= John said something in weeks  $\wedge\forall$ x[x said something in weeks $\rightarrow$ x=John] $\wedge \neg$ John said something in D $\wedge\forall$ x[x said something in D $\rightarrow$ x=John])
+\\$\Rightarrow$ Contradiction
+\end{xlist}
 \end{exe}
-None of the alernatives to the enriched assertion is entailed by it. Therefore, they must all be false (when exhaustification). But this is in contradiction with the assertion $\rightarrow$ \reff{pialt} is G-trivial.
-\\This account extends to all proppositional triggers(left argument of \textit{every}, conditionals, factives like \textit{be sorry}, \textit{regret}. accouting thus for their failur to license strong NPIs.
-Conversely, a sentence such as \textit{John didn't see Mary in weeks.} has no relevant presupposition. Hence exhaustification of \textit{John didn't see Mary in weeks} presents no problem and the sentence will be ruled in. 
-$\Rightarrow$ Contrast between Strong vs. Weak NPIs:
+In \reff{presupalt}, we can observe that the presuppositional component of the alternatives entails the presuppositional component of the proposition, and that the content component of the proposition entails the content component of the alternatives.
+\\$\Rightarrow$ None of the alernatives is entailed by the proposition, suggesting that they must all be false (as illustrated in \reff{pialtc}). 
+This result is in contradiction with the assertion.
+%$\rightarrow$ \reff{pialt} is G-trivial.
+\\This account extends to all presuppositional triggers(left argument of \textit{every}, conditionals, factives like \textit{be sorry}, \textit{regret}...). It thus explain why these presuppositional triggers cannot license strong NPIs.
+\paragraph{}
+Conversely, as negation introduces no presupposition, a sentence such as \textit{John didn't see Mary in weeks.} has no relevant presupposition. Therefore, exhaustification of \textit{John didn't see Mary in weeks} is performed only with respect to the content component of the proposition and presents no problemd: the sentence is grammatical.
+\paragraph{}
+The distinction between Strong and Weak NPIs can be summarize as follows:
 \begin{exe}
 \ex \begin{xlist}
 \ex\label{strexh} Strong exhaustification:
 \\O\up{S}_{ALT}[$\Phi_w$]=$\Phi_w \wedge\forall p\in $ALT [$\pi$(p)_w $\rightarrow \pi$($\lambda w \Phi_w$) $\subseteq \pi$(p)]
-\ex\label Weak exhaustification:
+\ex\label{wkexh} Weak exhaustification:
 \\O\up{W}_{ALT}($\Phi_w$)=$\Phi_w \wedge\forall p\in$ ALT [\up{$\alpha$}p_w $\rightarrow$ \up{$\alpha$}$\lambda w \Phi_w \subseteq$ \up{$\alpha$}p]
 \end{xlist}
 \end{exe}
-\item Role of implicatures:
-Recall (?) that each scalar element, such as \textit{few}, has both $\sigma$- and D-alternatives. Consider the sentence in (\ref{fewinwa}) and its total set of alternatives.
+\paragraph{}
+\item \textit{Role of implicatures:}
+To begin with, each scalar item, such as \textit{few}, has both $\sigma$- and D-alternatives. Consider the sentence in (\ref{fewinwa}) and its total set of alternatives.
 \begin{exe}
 \ex\label{fewinw} \begin{xlist}
 \ex\label{fewinwa} Few people saw Mary in weeks.
-\ex\label{fewinwb} NO_D in W $\Rightarrow$ FEW_D in W $\Rightarrow$ NOT ALL_D in W 
+\ex\label{fewinwb} NO_D in W $\Rightarrow$ FEW_D in W $\Rightarrow$ NOT ALL_D in W \ \ \ \ \textit{ $\sigma$-alternatives}
 \\ $\Downarrow\ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \Downarrow$ 
 \\NO_{D'} in W $\Rightarrow$ FEW_{D'} in W $\Rightarrow$ NOT ALL_{D'} in W 
+\\\textit{D-alternatives} (including those of \textit{in weeks})
 \ex\label{fewinwc} O_{ALT}(few_{+D} people saw Mary in weeks_{+D})=few_{D} people saw Mary in weeks $\wedge\neg$NO_{D'} in W' (for any D', W') = few_D people saw Mary in weeks $\wedge$ some_{D'} people saw Mary in W' (for any D', W')
-\ex\label{fewinwd} O_{ALT} (no_{+D} people saw MAry in weeks_{+D})= ...
+\ex\label{fewinwd} O_{ALT} (no_{+D} people saw Mary in weeks_{+D})= no_{D} people saw Mary in weeks
 \end{xlist}
 \end{exe}
-Rows: $\sigma$-alternatives, the columns D-alternatives (dont celle activ\'ee par \textit{in weeks}.
-\\Exhaustification in \reff{fewinwc}: The whole first column is entailed by the assertion. Therefore, the result, that in any D',W' (including the smallest ones) there have to be people in D' that saw Mary in W', which contradicts the assertion. $\rightarrow$ G-trivial
-Conversely, the exhaustification in \reff{fewinwd}: the sentencce entails everything, therefore the exhaustification is vacuous and the sentence is grammatical.
-
+In \reff{fewinwa}, as the whole first column isn't entailed by the assertion in \reff{fewinwa}, these two alternatives have to be false, as shown in \reff{fewinwc}. 
+The result, namely, in any D',W' (including the smallest one), there have to be people in D' that saw Mary in W', is in contradiction with the assertion.
+\\Conversely, as the sentence \textit{No people saw Mary in weeks.} entails all the alternatives in \reff{fewinwb}, the exhaustification in \reff{fewinwd} is vacuous and the sentence is grammatical.
 \end{enumerate}
-
-$\Rightarrow$ Strong NPIs must be exhaustified by considering the total ALT of scalar and domain alternatives.
-\\Strong NPIs carry a feature that can be checked only by O_{ALT}, i.e. an exhaustification whose restriction includes the whole set ALT of grammticaly determined alternatives.
-\\Difference between strong and weak NPIs.
+\paragraph{}
+$\Rightarrow$ Strong NPIs must be exhaustified by considering the total set ALT of scalar and domain alternatives.
+\\Strong NPIs carry a feature that can be checked only by O_{ALT}, i.e. an exhaustification whose restriction includes the whole set ALT of alternatives.
+\\The distinction between Strong and Weak NPIs can now be summarized as follows:
 \begin{exe}
 \ex\label{npifeat} \begin{xlist}
 \ex\label{npifeat1} \begin{xlist}
@@ -673,15 +709,19 @@ $\Rightarrow$ Strong NPIs must be exhaustified by considering the total ALT of s
 \end{xlist}
 \ex\label{npifeat2} \begin{xlist}
 \ex\label{npifeat2a} $O_{\sigma A}$ O_{DA} [$No_{[+\sigma, +D]}$ people saw $any_{[+\sigma,+D]}$ movies recently]
-\ex\label{npifeat2b} \# O_{ALT} [$No_{[+\sigma, +D]}$ people saw Mary $in\ weeks_{[+\sigma,+D]}$]
+\ex\label{npifeat2b} O_{ALT} [$No_{[+\sigma, +D]}$ people saw Mary $in\ weeks_{[+\sigma,+D]}$]
 \end{xlist}
 \end{xlist}
 \end{exe}
-Weak NPI allow separate exhaustification of D- and $\sigma$-alternatives. In \reff{npifeat1a} and \reff{npifeat2a} we first exhaustify relative to the D-alternatives.
-The result is fine because when this occurs the prejacent is DE with respect to the position of the NPI. Then the scalar implicature is added. Strong NPIs do not have
-this option: O_{ALT} must be used, which activates the relevant feature on any intervening XP. This forces exhaustification of both $\sigma$- and D-alernatives, which
-only works with end-of scale XPs. We assume furthermore, that O_{ALT} always factors in presuppositions as in \reff{strexh}: thus, O\up{S}_{ALT}=O_{ALT} and 
-O\up{W}_{ALT}=$O_{\sigma A}/O_{DA}$. The former looks at presupposition+assertion while the latter just at the assertive component.
+Weak NPIs allow separate exhaustification of D- and $\sigma$-alternatives: in \reff{npifeat1a} and \reff{npifeat2a}, we first exhaustify with respect to D-alternatives.
+%The result is fine because when this occurs the prejacent is DE with respect to the position of the NPI. 
+Then the scalar implicature is added. 
+\\Conversely, strong NPIs do not have this option: O_{ALT} must be used; this forces exhaustification of both $\sigma$- and D-alernatives, which
+only works with end-of scale XPs.
+\\Furthermore, Chierchia assumes that O_{ALT} always factors in presuppositions as in \reff{strexh}: thus, O\up{S}_{ALT}=O_{ALT} and 
+O\up{W}_{ALT}=$O_{\sigma A}/O_{DA}$. The former looks at presuppositional and content components whereas the latter just looks at the content component.
+
+
 \section{The Free Choice uses of disjunction}
 
 % Moreover, Chierchia assumes Multiple Agree: the operator can target a series of unvalued features in its c-command domain.
